@@ -3,4 +3,4 @@
 - [Framework](framework.md)
 - [Getting Started](project_planning.md)
 - [D-Time (Example)](D_time/README.md)
-
+- [Digitalization](digitalization/README.md)
