@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Documentation</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link
+  <head>
+    <meta charset="UTF-8" />
+    <title>Documentation</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link
       rel="stylesheet"
       href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css"
     />
-</head>
-<body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      name: 'Dialogue One Project Planning',
-      repo: 'https://github.com/ingimar-eyfjord/dialogue_time_plan',
-      loadSidebar: true,
-      maxLevel: 4,
-     subMaxLevel: 4,
-            pagination: {
+    <style>
+      :root {
+        --sidebar-width: 20vw;
+        --content-max-width: 60vw;
+      }
+      /* .sidebar {
+        width: 30vw;
+      }
+      section {
+        width: 70vw;
+      } */
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: "Dialogue One Project Planning",
+        repo: "https://github.com/ingimar-eyfjord/dialogue_time_plan",
+        loadSidebar: true,
+        maxLevel: 6,
+        subMaxLevel: 6,
+        pagination: {
           crossChapter: true,
         },
-    auto2top: true,
-    }
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+        auto2top: true,
+      };
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-</body>
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  </body>
 </html>

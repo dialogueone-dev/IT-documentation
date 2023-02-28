@@ -1,6 +1,5 @@
 - [Home](README.md)
   - [Project management](Project_management/README.md)
-    - [Home](README.md)
     - [Tools](Project_management/tools/README.md)
     - [Framework](Project_management/framework.md)
     - [Getting Started](Project_management/project_planning.md)
