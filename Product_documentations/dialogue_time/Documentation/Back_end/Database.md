@@ -10,9 +10,15 @@ During the database redesign phase, the focus was on how the data related to eac
 
 Furthermore, Sequalize models can be extended with predefined methods, such as beforedelete() and afterdelete(), which are called Hooks and function as triggers or middleware. Each of the Seqalize Hooks has different states depending on the execution order, and they can receive various options or accept data from the action itself. Since the user is known by reading their authentication token on each API request, the master log can capture the MS user ID along with the transaction ID and type of CRUD operation.
 
+![Database ERD](../../../../images/ERD.png "Database ERD")
+
+
 ### Transactions Data
 
 The database redesign focused on implementing a double transactional ledger, which resulted in two separate tables: an hours metadata table and a ledger table. When an entry is logged in the database, a metadata row and two ledger rows are created, and the transaction ID serves as a link between them. This approach created a clear separation of concerns, where one table is dedicated to user payroll and the other to project management. By splitting the tables, we achieved a more organized and efficient database structure.
+
+![Database ERD](../../../../images/relational_diagram.png "Database ERD")
+
 
 ### Ledger table
 

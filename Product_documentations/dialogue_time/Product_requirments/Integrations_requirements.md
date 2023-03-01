@@ -1,5 +1,9 @@
 > # Integration requirements
 
+As part of the requirements, the application needs to be able to integrate with other SaaS products. This is done by using API connections to the different products. The following products are used by Dialogue One and are integrated with Dialogue Time:
+
+![alt text](../../../images/integration.png "Integration")
+
 ## Emply
 
 Emply is a SaaS product provisioned by the HR department that is used for managing HR-related tasks. It provides various modules that manage an employee's history in the company from pre-boarding to off-boarding. The product stores all relevant personal information about employees and adheres to strict GDPR regulations. It also offers API integration services to clients, including CRUD capabilities for personal information, employee-specific data such as department and supervisor, and more.

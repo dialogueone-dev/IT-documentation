@@ -6,6 +6,9 @@ The decision to use Node.js for the back-end of the application offers benefits 
 
 The back-end application is built using the SOA (Service Oriented Architecture) architecture in an OOP (Object Oriented Programming) manner. To achieve this, the developer combined the ORM (Object Relational Model) library Sequalize and the web application library Express to create a functional REST API (Application Programming Interface). The application uses Models to represent database Tables, Express API routes to listen for HTTP calls, and Controllers with methods that are instantiated when those calls are made. The application is designed with a modular structure, which can be built upon quickly. Although the intention was to build a strict SOA architecture, the application currently needs refactoring, as most of the computation resides within the Controllers.
 
+![Rest ERD](../../../../../images/Rest%20app.png "Rest ERD")
+
+
 ### Models
 
 The application utilizes the Sequalize ORM library to simplify database operations and reduce complexity between the database and programming. Sequalize supports multiple database management systems, including PostgreSQL, MySQL, MariaDB, SQLite and SQL Server. The MySQL version was chosen to maintain consistency with the previous database. The library provides various functionalities that simplify CRUD operations and remove complexities typically found in SQL programming.

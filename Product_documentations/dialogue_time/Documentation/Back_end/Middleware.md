@@ -140,78 +140,7 @@ The cors middleware function is then called with the configuration object as an 
 
 This is the function for verifying a JSON Web Token (JWT) in an Express.js application. It exports a function called VerifyToken which takes an array of roles as a parameter, and returns an array of middleware functions that will check if the JWT in the request header is valid and the user has the necessary role(s) to access the protected resource.
 
-```js
-// Import required modules
-const jwt = require("jsonwebtoken");
-const config = require("../config/auth.config.js");
-const jwt_decode = require("jwt-decode");
-
-// Destructure TokenExpiredError from jwt module
-const { TokenExpiredError } = jwt;
-
-// Error handling function
-const catchError = (err, res) => {
-  if (err instanceof TokenExpiredError) {
-    // If token is expired, return 401 with error message
-    return res
-      .status(401)
-      .send({ message: "Unauthorized! Access Token was expired!" });
-  }
-  // Otherwise, return 401 with default error message
-  return res.sendStatus(401).send({ message: "Unauthorized!" });
-};
-
-// Export VerifyToken middleware function
-export const VerifyToken = (roles = []) => {
-  if (typeof roles === "string") {
-    roles = [roles];
-  }
-  return [
-    (req, res, next) => {
-      // Extract token from request header
-      let token = req.headers["x-access-token"];
-      if (!token) {
-        // If no token is provided, return 403 with error message
-        return res.status(403).send({ message: "No token provided!" });
-      }
-
-      // Verify token using jwt module
-      jwt.verify(token, config.secret, (err, decoded) => {
-        if (err) {
-          // If token verification fails, return error response using catchError function
-          return catchError(err, res);
-        }
-        if (typeof decoded.Role === "string") {
-          decoded.Role = [decoded.Role];
-        }
-        if (
-          roles.length &&
-          !decoded.Role.some((item) => roles.includes(item))
-        ) {
-          // If user's role is not authorized, return 401 with error message
-          return res.status(401).json({ message: "Unauthorized" });
-        }
-        // Add decoded user ID to request object and set user object in response locals
-        req.userId = decoded.id;
-        res.locals.user = decoded;
-        next();
-      });
-    },
-  ];
-};
-```
-
-The middleware functions perform the following tasks:
-
-- Check if the token exists in the request header.
-- Verify the token using the secret key specified in the config.auth.js file.
-- If the token is invalid or expired, return an error response.
-- If the token is valid, check if the decoded token contains the required roles.
-- If the user's role is not authorized, return an error response.
-- If the user's role is authorized, set the decoded token's id as the userId property on the request object and attach the decoded token as the user object on the response locals.
-- Call the next middleware function.
-
-The catchError function is a helper function that returns a 401 error response with a message indicating that the user is unauthorized. The jwt-decode library is used to decode the token to obtain its payload, which contains information about the user, such as the user ID and their role(s).
+> Note: The authentication middleware is found in [Verification Middleware](Product_documentations/dialogue_time/Getting_started/Authentication/README?id=verification-middleware)
 
 ## Putting it all together
 

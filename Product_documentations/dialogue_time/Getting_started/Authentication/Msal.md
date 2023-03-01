@@ -69,22 +69,39 @@ import App from "./App";
 We have a custom hook that defines if the user is signed in or not. If the user is signed in the state is true or false.
 
 ```js
+// Create a React Hook
 function useIsSignedIn() {
+
+  // Create a state variable
   const [isSignedIn, setIsSignedIn] = useState(false);
+
+  // Create an effect to be run only once
   useEffect(() => {
+
+    // Create a function to update the state variable
     const updateState = () => {
       const provider = Providers.globalProvider;
       setIsSignedIn(provider && provider.state === ProviderState.SignedIn);
     };
+
+    // Add an update listener
     Providers.onProviderUpdated(updateState);
+
+    // Call the update function to set the initial value
     updateState();
+
+    // Remove the listener when the component is unmounted
     return () => {
       Providers.removeProviderUpdatedListener(updateState);
     };
   }, []);
+
+  // Return the state variable
   return [isSignedIn];
 }
 ```
+
+This code is a React hook that checks if the user is signed in. It creates a state variable called isSignedIn and sets it to false initially. It then creates an effect that runs only once, which adds an update listener to the Providers globalProvider. The update listener calls the updateState function, which checks if the provider's state is SignedIn and updates the isSignedIn state variable accordingly. Finally, it returns the isSignedIn state variable.
 
 Which can then be used as a stateful hook inside our component like so
 
@@ -95,6 +112,8 @@ export default function Authenticate() {
   // ...
 }
 ```
+
+This code creates a function called Authenticate that is exported as the default. The function uses the useIsSignedIn hook to set a variable called isSignedIn. This variable can then be used in the body of the function to determine if a user is signed in or not.
 
 ## Setup
 

@@ -26,7 +26,7 @@ startup()
     // Use Swagger UI to serve the Swagger API documentation
     app.use("/doc", swaggerUi.serve, swaggerUi.setup(swaggerFile));
 
-     Use rate limiting middleware to prevent abuse
+     // Use rate limiting middleware to prevent abuse
      app.use(
        rateLimit({
          windowMs: 12 * 60 * 60 * 1000, // 12 hour duration in milliseconds
@@ -77,6 +77,11 @@ startup()
     logger.error(error);
   });
 ```
+
+The following Diagram shows the flow of the index file.
+
+![Database ERD](../../../../../images/REST.png "Database ERD")
+
 
 ## Settings
 

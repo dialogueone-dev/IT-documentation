@@ -2,6 +2,12 @@
 
 React is a framework that doesn't strictly follow the MVC architecture, but developers can structure their code to follow it. React doesn't enforce a particular architecture, but it's important to design the application in a way that's beneficial for both the development team and the application's performance. Although the back-end Controllers and Models are responsible for managing data in the application, React's View component is the front-end application.
 
+The diagram below shows the structure of the front-end application:
+
+![alt text](../../../../images/app.png "Front-end architecture")
+
+Although the structure may have changed over time, the core architecture remains the same. The application is divided into for layers, Application Entry Point, Context Providers, Views, and Data Services.
+
 ## Data services
 
 To explain the front-end architecture, it's important to understand how the application retrieves data from the back-end. The data is retrieved through a series of Classes that are instantiated as needed. Each Class has a series of methods that perform API calls to the back-end, which then performs CRUD operations. This approach makes the front-end an API first application that is detached from the actual Models and Controllers. Each data service is designed to correspond to a specific Model, integration feature, or business functionality.
@@ -50,6 +56,9 @@ Example on how to call data services inside a component and pass data down to ch
 The Flux design pattern, introduced by Facebook (the creators of React), promotes a single source of truth, the Stores. These Stores subscribe to dispatchers that are triggered by actions. Once an action triggers a dispatch, the store is updated accordingly, and any components that subscribe to a store state will re-render automatically.
 
 Using this pattern is beneficial when designing a React app as it simplifies the process of adding reusable components to a large codebase by eliminating the complexities of passing props. Furthermore, it can address concerns regarding persistent data lifecycle and management by creating a global store.
+
+![alt text](../../../../images/Flux.png "Flux")
+
 
 ### Custom Store (Redux)
 
