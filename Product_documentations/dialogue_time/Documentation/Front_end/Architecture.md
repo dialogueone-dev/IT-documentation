@@ -20,6 +20,65 @@ The React application was written using Hooks, which allows for writing decouple
 
 For example, they describe a component that fetches user logs from the master log and displays them as actions that users have performed in the system. The component is designed with isolation in mind but will always fetch new data from the master log when it renders.
 
+### LogsDataService Class
+
+The LogsDataService class is a data service class that provides methods for performing CRUD (Create, Read, Update, Delete) operations on a logs resource in a RESTful API. The class is designed to be used in a React.js application, and uses the http module from a rest_http_common.js file to send HTTP requests to the API.
+
+```js
+import http from "../Common_service/rest_http_common";
+
+class LogsDataService {
+  // Get all logs from the API
+  async getAll() {
+    const response = await http.get("/Logs");
+    return response.data;
+  }
+
+  // Get all logs from the API with optional limit and offset parameters
+  async getAllwithOptions(options) {
+    const limit = options.limit;
+    const offset = options.offset;
+    let link = "/Logs";
+    if (limit) {
+      link = link + `?limit=${limit}`;
+    }
+    if (offset) {
+      link = link + `?offset=${offset}`;
+    }
+    if (limit && offset) {
+      link = `/Logs?limit=${limit}&offset=${offset}`;
+    }
+    const response = await http.get(link);
+    return response.data;
+  }
+  // Get logs for a specific user and limit
+  async GetLogsForUser(UserUUID, Limit) {
+    const response = await http.get(`/Logs/user/${UserUUID}/limit/${Limit}`);
+    return response;
+  }
+  // Get a single log by ID
+  get(id) {
+    return http.get(`/Logs/${id}`);
+  }
+  // Create a new log
+  create(data) {
+    return http.post("/Logs", data);
+  }
+  // Update an existing log by ID
+  update(id, data) {
+    return http.put(`/Logs/${id}`, data);
+  }
+  // Delete an existing log by ID
+  delete(id) {
+    return http.delete(`/Logs/${id}`);
+  }
+}
+
+export default new LogsDataService();
+```
+
+Then the LogDataService class is imported into other components and used like in the example below.
+
 ```js
 // File: src/App/Views/Users/Profile/logs.jsx
 import { useEffect, useCallback, useState } from "react";
@@ -58,7 +117,6 @@ The Flux design pattern, introduced by Facebook (the creators of React), promote
 Using this pattern is beneficial when designing a React app as it simplifies the process of adding reusable components to a large codebase by eliminating the complexities of passing props. Furthermore, it can address concerns regarding persistent data lifecycle and management by creating a global store.
 
 ![alt text](../../../../images/Flux.png "Flux")
-
 
 ### Custom Store (Redux)
 

@@ -2,6 +2,8 @@
 
 This documentation provides a comprehensive overview of Dialogue Time, a web application designed to facilitate effective communication and collaboration within organizations.
 
+> #### Please view [ Getting Started](Product_documentations/dialogue_time/Getting_started/README.md) in order to understand more about the structure and placements of each component of the application
+
 ## Table of Contents
 
 The documentation starts with the Business Case, which outlines the objectives and benefits of Dialogue Time. The Product Requirements section details the functional and non-functional requirements of the application, providing a clear understanding of its scope and features.

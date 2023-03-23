@@ -223,4 +223,3 @@ This one-day program provides a comprehensive overview of the Scrum framework an
 - Q&A session to clarify any questions or concerns
 
 This one-day program provides a comprehensive introduction to Information Architecture and its importance in software development. By the end of the day, participants will have a solid understanding of IA principles and concepts, user research and requirements gathering, creating IA maps and diagrams, navigation design, and taxonomy and labeling. They will also gain practical skills and knowledge for applying these principles to software development projects.
-

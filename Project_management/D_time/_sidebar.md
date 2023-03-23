@@ -3,7 +3,7 @@
   - [Tools](Project_management/tools/README.md)
   - [Framework](Project_management/framework.md)
   - [Getting Started](Project_management/project_planning.md)
-  - [D-Time (Example)](Project_management/D_time/README.md)
+  - [D-Time](Project_management/D_time/README.md)
     - [About](Project_management/D_time/landing.md)
     - [Organization](Project_management/D_time/organization.md)
     - [Framework](Project_management/D_time/framework.md)

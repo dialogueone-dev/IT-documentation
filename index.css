@@ -1,13 +1,16 @@
- 
- body[data-page="Learning/README.md"] section.content article.markdown-section {
-    max-width: 100%;
-    margin: 0 auto;
+body[data-page="Learning/README.md"] section.content article.markdown-section {
+  max-width: 100%;
+  margin: 0 auto;
 }
 
- body[data-page="Learning/README.md"] section.content article.markdown-section td {
-     max-width: 20%;
-     width: 20%;
- }
+body[data-page="Learning/README.md"]
+  section.content
+  article.markdown-section
+  td {
+  max-width: 20%;
+  width: 20%;
+}
+
 /*` 
 body[data-page="Learning/README.md"] .content {
     margin-left: 10vw;

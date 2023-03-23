@@ -5,4 +5,3 @@
   - [Frameworks & Methodologies](Learning/Frameworks/README.md)
   - [Frontend Development](Learning/Frontend/README.md)
   - [Backend Development](Learning/Backend/README.md)
-  - [DevOps](Learning/DevOps/README.md)
