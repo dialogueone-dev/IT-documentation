@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css"
     />
+
     <style>
       :root {
         --sidebar-width: 20vw;
@@ -25,6 +26,7 @@
         width: 70vw;
       } */
     </style>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <div id="app"></div>
@@ -33,8 +35,10 @@
         name: "Dialogue One Project Planning",
         repo: "https://github.com/ingimar-eyfjord/dialogue_time_plan",
         loadSidebar: "_sidebar.md",
+        mergeNavbar: true,
         maxLevel: 6,
         subMaxLevel: 6,
+        homepage: 'home.md',
         pagination: {
           crossChapter: true,
         },
@@ -49,3 +53,16 @@
   </body>
 </html>
         <!-- auto2top: true, -->
+
+        <script defer >
+          window.addEventListener('hashchange', function () {
+            setTimeout(function () {
+               var toc = document.querySelector('.sidebar-nav').querySelector('.active').querySelector('ul.app-sub-sidebar');
+              // Move the toc up one level in the DOM
+              console.log(toc)
+              if(toc == null) return;
+              console.log(toc.parentElement.querySelector('a'))
+              toc.parentElement.insertBefore(toc, toc.parentElement.querySelector('ul'));
+            },[100])
+            });
+        </script>
