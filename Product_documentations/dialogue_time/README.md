@@ -2,7 +2,7 @@
 
 This documentation provides a comprehensive overview of Dialogue Time, a web application designed to facilitate effective communication and collaboration within organizations.
 
-> #### Please view [ Getting Started](Product_documentations/dialogue_time/Getting_started/README.md) in order to understand more about the structure and placements of each component of the application
+> Please view [ Getting Started](Product_documentations/dialogue_time/Getting_started/README.md) in order to understand more about the structure and placements of each component of the application
 
 ## Table of Contents
 

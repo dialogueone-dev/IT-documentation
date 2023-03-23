@@ -7,7 +7,7 @@
     - [Authentication](Product_documentations/dialogue_time/Authentication/README.md)
       - [MSAL](Product_documentations/dialogue_time/Authentication/Msal.md)
       - [JWT](Product_documentations/dialogue_time/Authentication/JWT.md)
-    - [Documentation](Product_documentations/dialogue_time/Documentation/README.md)
+    - [Code Documentation](Product_documentations/dialogue_time/Documentation/README.md)
   - [Lunch Application](Product_documentations/lunch_app/README.md)
   - [Ninox](Product_documentations/ninox/README.md)
   - [Project Status](Product_documentations/project_status/README.md)

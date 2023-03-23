@@ -3,5 +3,4 @@
   - [Framework](Frameworks/README.md)
   - [Tools](tools/README.md)
   - [D-Time](D_time/README.md)
-  - [Digitalization](digitalization/README.md)
 - [Product documentations](Product_documentations/README.md)

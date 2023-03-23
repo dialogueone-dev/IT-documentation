@@ -12,6 +12,14 @@ Together, the React Front End and API backend work in tandem to provide a seamle
 
 ### SSH
 
+In order to access the server where the applications exist you need to connect to it via SSH, SSH stands for Secure Shell, and it is a network protocol that allows secure communication between two computers. It is commonly used to remotely access and manage computers and servers, as it provides a secure way to log in and execute commands over an unsecured network. With SSH, all data transmitted between the two computers is encrypted, ensuring that sensitive information such as passwords and other credentials are not intercepted by unauthorized users.
+
+#### SSH inside Visual Studio code
+
+SSH uses the terminal interface and can be a bit daunting for newcomers, but Visual Studio code offers an extension pack that allows you to set up a SSH connection, where you can then use the IDE like usual. Think about this as a you using visual studio code on your computer, but it's not your computer.
+
+> Read more about it here [Link to SSH extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+
 Here's an example of how to add SSH into Visual Studio Code:
 
 1. Open Visual Studio Code.
@@ -28,6 +36,8 @@ To configure SSH in order to log in without a password:
 2. Copy the public key to the remote server by running the command ssh-copy-id user@host.
 3. Enter your SSH password when prompted.
 4. You can now log in to the remote server without a password.
+
+> To get the credentials to access the server please contact Jens the IT manager jpw@dialogueone.dk
 
 ## Back end
 

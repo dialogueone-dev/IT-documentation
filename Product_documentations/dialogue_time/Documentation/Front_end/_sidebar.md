@@ -5,7 +5,7 @@
     - [Product Requirements](Product_documentations/dialogue_time/Product_requirments/index.md)
     - [Getting Started](Product_documentations/dialogue_time/Getting_started/README.md)
     - [Authentication](Product_documentations/dialogue_time/Authentication/README.md)
-    - [Documentation](Product_documentations/dialogue_time/Documentation/README.md)
+    - [Code Documentation](Product_documentations/dialogue_time/Documentation/README.md)
       - [Back-End](Product_documentations/dialogue_time/Documentation/Back_end/README.md)
       - [Front-End](Product_documentations/dialogue_time/Documentation/Front_end/README.md)
         - [Configuration](Product_documentations/dialogue_time/Documentation/Front_end/Configuration.md)
