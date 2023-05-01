@@ -10,4 +10,6 @@
   - [Lunch Application](Product_documentations/lunch_app/README.md)
   - [Ninox](Product_documentations/ninox/README.md)
   - [Project Status](Product_documentations/project_status/README.md)
+    - [Getting Started](Product_documentations/project_status/getting_started.md)
+    - [Node JS](Product_documentations/project_status/node.md)
   - [Digitalization](Product_documentations/digitalization/README.md)
