@@ -79,7 +79,7 @@ export default new LogsDataService();
 
 Then the LogDataService class is imported into other components and used like in the example below.
 
-```js
+```jsx
 // File: src/App/Views/Users/Profile/logs.jsx
 import { useEffect, useCallback, useState } from "react";
 import OrdersOverview from "App/Views/Components/Material_ui/OrdersOverview";
@@ -122,7 +122,7 @@ Using this pattern is beneficial when designing a React app as it simplifies the
 
 Redux is a popular toolkit for React that manages application states and is inspired by the Flux pattern. In the context of the previous concerns, Redux was used to centralize data and logic behind a persistent global state. To avoid excessive reliance on external packages, a custom global store component called "GlobalState" was created using React's built-in createContext and useReducer Hooks. By wrapping the "GlobalState" provider around the highest level component in the app, a unidirectional data flow through the component tree was established, enabling the creation of a global store.
 
-```js
+```jsx
 import React from "react";
 import ReactDOM from "react-dom";
 import Authenticate from "./authenticate";
@@ -144,7 +144,7 @@ Example showing how a Context Provider is wrapped around a component.
 
 The `createContext` Hook is a feature in React that allows for data flow through the component tree without the need to pass props manually at the component entry level. The Hook includes a React component `<Context.Provider value=/some value/>` that enables any value inserted into the `value` property to be accessed by the child component.
 
-```js
+```jsx
 import { createContext } from "react";
 // Initialise an empty initial state
 const initialState = {};
@@ -170,7 +170,7 @@ Example of using CreateContext Hooks
 
 The ‘useReducer‘ hook in React is similar to the ‘useState‘ hook but is used to apply the Flux pattern. When using ‘useReducer‘, an array with two values is returned. The first value is the reactive ‘state‘, and the second value is a function that ‘dispatches‘ an ‘action‘. The ‘action‘ object, which contains data for the ‘state‘, is used as an argument to trigger the ‘reducer‘ callback function. The ‘reducer‘ function, which is defined by the developer, takes the current ‘state‘ and the ‘action‘ object as arguments. In this implementation, the ‘useReducer‘ function will serve as the Flux pattern ‘dispatcher‘ to the ‘GlobalState‘, with the ‘action‘ object containing data for the ‘state‘.
 
-```js
+```jsx
 // The Reducer function accepts the state, and action (in this case the initialState)
 const Reducer = (state, action) => {
   // ... perform computations for updating state
@@ -183,7 +183,7 @@ Example of using useReducer Hooks.
 
 By combining the `useReducer` and `createContext` Hooks and passing the `reducer` and `state` functions to the `GlobalState.Provider` value property, child components are able to access the `GlobalState`, which is updated by the `reducer` function and the `dispatch` function to update the `GlobalState`. The `state` structure only accepts JavaScript objects that are defined with a specific format, for example, `Data: color: "red", icon: "warning"`. Once triggered, the `reducer` function de-structures the `data` into its keys and values, copies the current `state` using the spread operator, and either assigns or updates the passed `data` object to the copied `state` using the `data` key.
 
-```js
+```jsx
 import React, { createContext, useReducer } from "react";
 // Initialise an empty initial state
 const initialState = {};
@@ -220,7 +220,7 @@ The code implements the Flux pattern in a React app by using a custom global sto
 
 The components in the app use the useContext hook to interact with the GlobalState and return an array with two values - the state and dispatch. The GlobalState is initiated in the example code below, and the user's details are retrieved, displayed, and the user's age is assigned or updated in the Stores.
 
-```js
+```jsx
 import { useState, useContext } from "react";
 import { GlobalState } from "context/store";
 export default function DisplayUserInfo() {

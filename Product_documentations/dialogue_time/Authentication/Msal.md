@@ -54,7 +54,7 @@ The authentication process happens in `src/App/authenticate.jsx`.
 
 These are the packages we are using for authenticating the user. The `Login` component from [mgt-react](https://www.npmjs.com/package/@microsoft/mgt-react) works in tandem with [MSAL Providers](https://learn.microsoft.com/en-us/graph/toolkit/providers/msal2)
 
-```js
+```jsx
 // Imports
 import React, { useEffect, useState, useCallback } from "react";
 import { Login } from "@microsoft/mgt-react";
@@ -68,16 +68,14 @@ import App from "./App";
 
 We have a custom hook that defines if the user is signed in or not. If the user is signed in the state is true or false.
 
-```js
+```jsx
 // Create a React Hook
 function useIsSignedIn() {
-
   // Create a state variable
   const [isSignedIn, setIsSignedIn] = useState(false);
 
   // Create an effect to be run only once
   useEffect(() => {
-
     // Create a function to update the state variable
     const updateState = () => {
       const provider = Providers.globalProvider;

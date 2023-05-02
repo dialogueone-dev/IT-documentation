@@ -43,7 +43,7 @@ Read the React [tutorial](https://learn.microsoft.com/en-us/azure/active-directo
 
 The authentication flow is made in `src\App\authenticate.jsx`, the example below shows how to configure it.
 
-```js
+```jsx
 import { Providers, ProviderState } from "@microsoft/mgt";
 import { Msal2Provider } from "@microsoft/mgt-msal2-provider";
 // Set the scopes to what you want to access from Microsoft Graph

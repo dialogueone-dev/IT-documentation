@@ -1,5 +1,6 @@
 - [Home](README.md)
 - [Product documentations](Product_documentations/README.md)
+  - [Microsoft Azure](Product_documentations/Microsoft_azure/README.md)
   - [Dialogue Time](Product_documentations/dialogue_time/README.md)
   - [Lunch Application](Product_documentations/lunch_app/README.md)
     - [Business Case](Product_documentations/lunch_app/Business_case.md)
