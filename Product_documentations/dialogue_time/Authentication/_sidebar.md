@@ -1,4 +1,5 @@
 - [Home](README.md)
+- [Project Management](Project_management/README.md)
 - [Product documentations](Product_documentations/README.md)
   - [Dialogue Time](Product_documentations/dialogue_time/README.md)
     - [Business Case](Product_documentations/dialogue_time/Busines_case.md)
@@ -11,4 +12,3 @@
   - [Lunch Application](Product_documentations/lunch_app/README.md)
   - [Ninox](Product_documentations/ninox/README.md)
   - [Project Status](Product_documentations/project_status/README.md)
-  - [Digitalization](Product_documentations/digitalization/README.md)

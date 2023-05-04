@@ -1,4 +1,5 @@
 - [Home](README.md)
+- [Project Management](Project_management/README.md)
 - [Product documentations](Product_documentations/README.md)
   - [Microsoft Azure](Product_documentations/Microsoft_azure/README.md)
   - [Dialogue Time](Product_documentations/dialogue_time/README.md)
@@ -8,4 +9,3 @@
     - [Code Documentation](Product_documentations/lunch_app/Documentation/README.md)
   - [Ninox](Product_documentations/ninox/README.md)
   - [Project Status](Product_documentations/project_status/README.md)
-  - [Digitalization](Product_documentations/digitalization/README.md)

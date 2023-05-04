@@ -1,4 +1,5 @@
 - [Home](README.md)
+- [Project Management](Project_management/README.md)
 - [Product documentations](Product_documentations/README.md)
   - [Microsoft Azure](Product_documentations/Microsoft_azure/README.md)
   - [Dialogue Time](Product_documentations/dialogue_time/README.md)
@@ -12,4 +13,3 @@
         - [www](Product_documentations/project_status/code_documentation/backend/www.md)
       - [Frontend](Product_documentations/project_status/code_documentation/frontend/front_end.md)
         - [Writing to document](Product_documentations/project_status/code_documentation/frontend/document.md)
-  - [Digitalization](Product_documentations/digitalization/README.md)

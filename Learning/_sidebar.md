@@ -1,5 +1,5 @@
 - [Home](README.md)
-- [Project management](Project_management/README.md)
+- [Project Management](Project_management/README.md)
 - [Product documentations](Product_documentations/README.md)
 - [Learning](Learning/README.md)
   - [Frameworks & Methodologies](Learning/Frameworks/README.md)

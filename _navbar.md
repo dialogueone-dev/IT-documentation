@@ -1,5 +1,12 @@
-- [Home](README.md)
+<!-- _navbar.md -->
+
+- [Home](home.md)
+  - [How To](HowTo/README.md)
 - [Project Management](Project_management/README.md)
+  - [Tools](Project_management/tools/README.md)
+  - [Framework](Project_management/Frameworks/README.md)
+  - [Getting Started](Project_management/project_planning.md)
+  - [D-Time](Project_management/D_time/README.md)
 - [Product documentations](Product_documentations/README.md)
   - [Microsoft Azure](Product_documentations/Microsoft_azure/README.md)
   - [Dialogue Time](Product_documentations/dialogue_time/README.md)

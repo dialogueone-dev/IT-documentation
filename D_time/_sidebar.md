@@ -7,5 +7,4 @@
     - [Organization](D_time/organization.md)
     - [Framework](D_time/framework.md)
     - [Requirements](D_time/requirements.md)
-  - [Digitalization](digitalization/README.md)
 - [Product documentations](Product_documentations/README.md)

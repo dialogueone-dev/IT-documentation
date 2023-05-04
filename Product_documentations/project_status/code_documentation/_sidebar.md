@@ -15,4 +15,3 @@
     - [Code Documentation](Product_documentations/project_status/code_documentation/README.md)
       - [Backend](Product_documentations/project_status/code_documentation/backend/backend.md)
       - [Frontend](Product_documentations/project_status/code_documentation/frontend/front_end.md)
-  - [Digitalization](Product_documentations/digitalization/README.md)

@@ -23,3 +23,36 @@ body[data-page="Learning/README.md"] .sidebar {
 body[data-page="Learning/README.md"] .sidebar-toggle {
     transform: translateX(10vw)
 } */
+.cover .cover-main > p:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.cover .cover-main > p:last-child a {
+  border: var(--cover-button-primary-border, var(--cover-button-border));
+  box-shadow: var(
+    --cover-button-primary-box-shadow,
+    var(--cover-button-box-shadow)
+  );
+  background: var(
+    --cover-button-primary-background,
+    var(--cover-button-background)
+  );
+  -webkit-text-decoration: var(
+    --cover-button-primary-text-decoration,
+    var(--cover-button-text-decoration)
+  );
+  text-decoration: var(
+    --cover-button-primary-text-decoration,
+    var(--cover-button-text-decoration)
+  );
+  -webkit-text-decoration-color: var(
+    --cover-button-primary-text-decoration-color,
+    var(--cover-button-text-decoration-color)
+  );
+  text-decoration-color: var(
+    --cover-button-primary-text-decoration-color,
+    var(--cover-button-text-decoration-color)
+  );
+  color: var(--cover-button-primary-color, var(--cover-button-color));
+}
