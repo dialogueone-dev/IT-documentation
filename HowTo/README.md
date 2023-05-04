@@ -4,6 +4,10 @@ This part of the documentation is a collection of guides on how to do certain th
 
 **Table of contents**
 
-- [Accessing Data](HowTo/access_data.md)
+## [How do document](HowTo/documentation.md)
 
-## Some other header
+This documentation shows you how to update the documentation, create new documents and more.
+
+## [How to access data](HowTo/access_data.md)
+
+This documentation shows you how to access data from sharepoint.
