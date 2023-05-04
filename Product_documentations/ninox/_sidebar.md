@@ -12,5 +12,5 @@
   - [Lunch Application](Product_documentations/lunch_app/README.md)
   - [Ninox](Product_documentations/ninox/README.md)
     - [Setup](Product_documentations/ninox/Setup.md)
-    - [Getting Started](Product_documentations/ninox/Getting_started.md)
+    - [Getting Started](Product_documentations/ninox/getting_started.md)
   - [Project Status](Product_documentations/project_status/README.md)
