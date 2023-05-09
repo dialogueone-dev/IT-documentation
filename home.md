@@ -3,66 +3,84 @@
 This documentation is aimed to provide a single source of truth regarding IT products in use at Dialogue One A/s.
 The documentation contains about **200** standard pages and is divided into three main parts.
 
-- Firstly a **[How To](HowTo/README.md)** guide, which is a collection of guides on how to do certain things. This can be anything from how to access data to how to use a specific tool.
+> **[How To](HowTo/README.md)**
 
-- Secondly **[Project management](Project_management/README.md)** handbook, where aspects of project management are explained, including frameworks, tools and examples.
+- [How To](HowTo/README.md)
+  - [How do document](HowTo/documentation.md)
+  - [Access Data](HowTo/access_data.md)
+  - [Upload D-time Build](HowTo/upload_build.md)
+  - [How to use the server](Product_documentations/dialogue_time/Getting_started/README?id=ssh)
+  - [How to create new Database with Ninox](Product_documentations/ninox/creating_database)
 
-- Lastly **[Product documentations](Product_documentations/README.md)**, which is aimed to provide a comprehensive documentation of all the IT products.
+A guide, which is a collection of guides on how to do certain things. This can be anything from how to access data to how to use a specific tool.
 
-> Table of contents
+> **[Project management](Project_management/README.md)**
 
-- [Home](home.md)
-  - [How To](HowTo/README.md)
-    - [How do document](HowTo/documentation.md)
-    - [Access Data](HowTo/access_data.md)
-    - [Upload D-time Build](HowTo/upload_build.md)
-    - [How to use the server](Product_documentations/dialogue_time/Getting_started/README?id=ssh)
-    - [How to create new Database with Ninox](Product_documentations/ninox/creating_database)
 - [Project Management](Project_management/README.md)
-- [Product documentations](Product_documentations/README.md)
-  - [Microsoft Azure](Product_documentations/Microsoft_azure/README.md)
-  - [Dialogue Time](Product_documentations/dialogue_time/README.md)
-    - [Business Case](Product_documentations/dialogue_time/Busines_case.md)
-    - [Product Requirements](Product_documentations/dialogue_time/Product_requirments/index.md)
-      - [Functional requirments](Product_documentations/dialogue_time/Product_requirments/Functional_requirments.md)
-      - [Non functional requirments](Product_documentations/dialogue_time/Product_requirments/Non_functional_requirments.md)
-      - [Integration Requirements](Product_documentations/dialogue_time/Product_requirments/Integrations_requirements.md)
-      - [GDPR Requirements](Product_documentations/dialogue_time/Product_requirments/GDPR.md)
-    - [Getting Started](Product_documentations/dialogue_time/Getting_started/README.md)
-    - [Authentication](Product_documentations/dialogue_time/Authentication/README.md)
-      - [MSAL](Product_documentations/dialogue_time/Authentication/Msal.md)
-      - [JWT](Product_documentations/dialogue_time/Authentication/JWT.md)
-    - [Code Documentation](Product_documentations/dialogue_time/Documentation/README.md)
-      - [Back-End](Product_documentations/dialogue_time/Documentation/Back_end/README.md)
-        - [Architecture](Product_documentations/dialogue_time/Documentation/Back_end/Architecture/Architecture.md)
-        - [REST](Product_documentations/dialogue_time/Documentation/Back_end/REST/REST.md)
-        - [Node](Product_documentations/dialogue_time/Documentation/Back_end/Node/Node.md)
-        - [Databases](Product_documentations/dialogue_time/Documentation/Back_end/Database.md)
-        - [Websockets](Product_documentations/dialogue_time/Documentation/Back_end/Websockets.md)
-        - [Middleware](Product_documentations/dialogue_time/Documentation/Back_end/Middleware.md)
-      - [Front-End](Product_documentations/dialogue_time/Documentation/Front_end/README.md)
-        - [Configuration](Product_documentations/dialogue_time/Documentation/Front_end/Configuration.md)
-        - [Architecture](Product_documentations/dialogue_time/Documentation/Front_end/Architecture.md)
-        - [Axios](Product_documentations/dialogue_time/Documentation/Front_end/Axios.md)
-      - [PWA](Product_documentations/dialogue_time/Documentation/PWA.md)
-  - [Lunch Application](Product_documentations/lunch_app/README.md)
-    - [Business Case](Product_documentations/lunch_app/Business_case.md)
-    - [Getting Started](Product_documentations/lunch_app/Getting_started.md)
-    - [Code Documentation](Product_documentations/lunch_app/Documentation/README.md)
-      - [Front End](Product_documentations/lunch_app/Documentation/front_end.md)
-      - [Routing](Product_documentations/lunch_app/Documentation/Routing.md)
-      - [Database](Product_documentations/lunch_app/Documentation/Database.md)
-  - [Ninox](Product_documentations/ninox/README.md)
-    - [Setup](Product_documentations/ninox/Setup.md)
-    - [Getting Started](Product_documentations/ninox/getting_started.md)
-    - [Project Management](Product_documentations/ninox/project_management.md)
-    - [Create a new database](Product_documentations/ninox/creating_database.md)
-  - [Project Status](Product_documentations/project_status/README.md)
-    - [Getting Started](Product_documentations/project_status/getting_started.md)
-    - [Code Documentation](Product_documentations/project_status/code_documentation/README.md)
-      - [Backend](Product_documentations/project_status/code_documentation/backend/backend.md)
-        - [app.js](Product_documentations/project_status/code_documentation/backend/appjs.md)
-        - [www](Product_documentations/project_status/code_documentation/backend/www.md)
-        - [REST API](Product_documentations/project_status/code_documentation/backend/REST.md)
-      - [Frontend](Product_documentations/project_status/code_documentation/frontend/front_end.md)
-        - [Writing to document](Product_documentations/project_status/code_documentation/frontend/document.md)
+
+A handbook, where aspects of project management are explained, including frameworks, tools and examples.
+
+> **[Product documentations](Product_documentations/README.md)**
+
+Aimed to provide a comprehensive documentation of all the IT products.
+
+> Microsoft Azure
+
+- [Microsoft Azure](Product_documentations/Microsoft_azure/README.md)
+
+> Dialogue Time
+
+- [Dialogue Time](Product_documentations/dialogue_time/README.md)
+  - [Business Case](Product_documentations/dialogue_time/Busines_case.md)
+  - [Product Requirements](Product_documentations/dialogue_time/Product_requirments/index.md)
+    - [Functional requirments](Product_documentations/dialogue_time/Product_requirments/Functional_requirments.md)
+    - [Non functional requirments](Product_documentations/dialogue_time/Product_requirments/Non_functional_requirments.md)
+    - [Integration Requirements](Product_documentations/dialogue_time/Product_requirments/Integrations_requirements.md)
+    - [GDPR Requirements](Product_documentations/dialogue_time/Product_requirments/GDPR.md)
+  - [Getting Started](Product_documentations/dialogue_time/Getting_started/README.md)
+  - [Authentication](Product_documentations/dialogue_time/Authentication/README.md)
+    - [MSAL](Product_documentations/dialogue_time/Authentication/Msal.md)
+    - [JWT](Product_documentations/dialogue_time/Authentication/JWT.md)
+  - [Code Documentation](Product_documentations/dialogue_time/Documentation/README.md)
+    - [Back-End](Product_documentations/dialogue_time/Documentation/Back_end/README.md)
+      - [Architecture](Product_documentations/dialogue_time/Documentation/Back_end/Architecture/Architecture.md)
+      - [REST](Product_documentations/dialogue_time/Documentation/Back_end/REST/REST.md)
+      - [Node](Product_documentations/dialogue_time/Documentation/Back_end/Node/Node.md)
+      - [Databases](Product_documentations/dialogue_time/Documentation/Back_end/Database.md)
+      - [Websockets](Product_documentations/dialogue_time/Documentation/Back_end/Websockets.md)
+      - [Middleware](Product_documentations/dialogue_time/Documentation/Back_end/Middleware.md)
+    - [Front-End](Product_documentations/dialogue_time/Documentation/Front_end/README.md)
+      - [Configuration](Product_documentations/dialogue_time/Documentation/Front_end/Configuration.md)
+      - [Architecture](Product_documentations/dialogue_time/Documentation/Front_end/Architecture.md)
+      - [Axios](Product_documentations/dialogue_time/Documentation/Front_end/Axios.md)
+    - [PWA](Product_documentations/dialogue_time/Documentation/PWA.md)
+
+> Lunch Application
+
+- [Lunch Application](Product_documentations/lunch_app/README.md)
+  - [Business Case](Product_documentations/lunch_app/Business_case.md)
+  - [Getting Started](Product_documentations/lunch_app/Getting_started.md)
+  - [Code Documentation](Product_documentations/lunch_app/Documentation/README.md)
+    - [Front End](Product_documentations/lunch_app/Documentation/front_end.md)
+    - [Routing](Product_documentations/lunch_app/Documentation/Routing.md)
+    - [Database](Product_documentations/lunch_app/Documentation/Database.md)
+
+> Ninox
+
+- [Ninox](Product_documentations/ninox/README.md)
+  - [Setup](Product_documentations/ninox/Setup.md)
+  - [Getting Started](Product_documentations/ninox/getting_started.md)
+  - [Project Management](Product_documentations/ninox/project_management.md)
+  - [Create a new database](Product_documentations/ninox/creating_database.md)
+
+> Project Status
+
+- [Project Status](Product_documentations/project_status/README.md)
+  - [Getting Started](Product_documentations/project_status/getting_started.md)
+  - [Code Documentation](Product_documentations/project_status/code_documentation/README.md)
+    - [Backend](Product_documentations/project_status/code_documentation/backend/backend.md)
+      - [app.js](Product_documentations/project_status/code_documentation/backend/appjs.md)
+      - [www](Product_documentations/project_status/code_documentation/backend/www.md)
+      - [REST API](Product_documentations/project_status/code_documentation/backend/REST.md)
+    - [Frontend](Product_documentations/project_status/code_documentation/frontend/front_end.md)
+      - [Writing to document](Product_documentations/project_status/code_documentation/frontend/document.md)
