@@ -3,5 +3,7 @@
     - [How do document](HowTo/documentation.md)
     - [Access Data](HowTo/access_data.md)
     - [Upload D-time Build](HowTo/upload_build.md)
+    - [How to use the server](Product_documentations/dialogue_time/Getting_started/README?id=ssh)
+    - [How to create new Database with Ninox](Product_documentations/ninox/creating_database)
 - [Project Management](Project_management/README.md)
 - [Product documentations](Product_documentations/README.md)
