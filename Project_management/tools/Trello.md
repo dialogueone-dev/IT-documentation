@@ -2,6 +2,7 @@
 
 Trello is a project management tool that uses a board-based interface to organize and prioritize tasks. Here are some ways you can use Trello:
 
+> [!TIP]
 > To see more information about Trello, visit the [Trello website](https://trello.com/).
 
 1. **Create a board:** In Trello, you can create a board to represent a project or goal. You can then add lists to the board to represent different stages of the project, such as "To Do," "In Progress," and "Done."

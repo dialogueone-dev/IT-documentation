@@ -18,6 +18,7 @@ To get started with the application, you will need SSH access to the server on w
 
 If you are new to SSH or Visual Studio Code, we recommend consulting their respective documentation for more information on how to set up and use these tools.
 
+> [!Warning]
 > Note that any changes made to the code on the server will be immediately reflected in the live application, so it's important to exercise caution and thoroughly test any changes before deploying them.
 
 ### Working Locally with XAMPP
@@ -32,6 +33,7 @@ Here are the steps to set up a local development environment using XAMPP:
 - Configure the application to use the local database instead of the remote database.
 - Begin making changes to the code and testing them locally.
 
+> [!NOTE]
 > However, there is a caveat when working with authorized pages in the application. MSAL (Microsoft Authentication Library) is used to handle authentication and authorization, and some pages require authorization to access. To ensure that MSAL works properly when working locally, you need to configure the authorized pages in MSAL to include your local development environment.
 
 Here are the steps to configure authorized pages in MSAL:

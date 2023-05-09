@@ -2,6 +2,7 @@
 
 Microsoft Project is a project management software that allows you to create and manage projects, tasks, and resources. Here are some ways you can use Microsoft Project:
 
+> [!TIP]
 > To see more information about Microsoft Project, visit the [Microsoft Project website](https://products.office.com/en-us/project/project-and-portfolio-management-software).
 
 1. **Create a project plan:** Microsoft Project allows you to create a project plan by defining tasks, dependencies, and resources. You can also use the software to create a Gantt chart, which is a graphical representation of the project schedule.

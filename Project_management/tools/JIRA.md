@@ -2,6 +2,7 @@
 
 Jira is a project management tool that can be used to create and manage roadmaps. Here are some ways to use Jira for roadmaps:
 
+> [!TIP]
 > To see more information about Jira, visit the [Jira website](https://www.atlassian.com/software/jira).
 
 1. **Create a roadmap in Jira:** Jira provides a roadmap feature that allows you to create a visual representation of the planned work for a product or project. You can use this feature to define the high-level goals and objectives of the work, and then break those down into smaller, more manageable tasks.

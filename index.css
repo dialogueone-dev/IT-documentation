@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,700;0,800;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
+p,
+a,
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span {
+  font-family: "Montserrat", sans-serif;
+}
+
 body[data-page="Learning/README.md"] section.content article.markdown-section {
   max-width: 100%;
   margin: 0 auto;
@@ -55,4 +68,21 @@ body[data-page="Learning/README.md"] .sidebar-toggle {
     var(--cover-button-text-decoration-color)
   );
   color: var(--cover-button-primary-color, var(--cover-button-color));
+}
+
+section.cover .cover-main > p:last-child {
+  display: flex;
+}
+section.cover .cover-main > p:last-child a {
+  border-radius: 5px;
+  width: 60%;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: var(--accent);
+  color: white;
+}
+
+section.cover .cover-main > p:last-child a:hover {
+  color: white !important;
+  opacity: 1 !important;
 }

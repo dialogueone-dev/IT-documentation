@@ -1,4 +1,4 @@
-# Authentication
+> # Authentication
 
 The product requirement for user authentication in Dialogue Time involves the utilization of SSO. The current system employs a traditional user management system that stores personal information and hashed passwords in a database, and includes features such as password recovery and manual recovery. However, this setup poses certain security risks such as SQL injection or breaches.
 
@@ -143,7 +143,7 @@ The HTTP Common Service is used to make HTTP calls to the backend API. It is use
 
 #### Importing the modules
 
-```js
+```jsx
 import axios from "axios";
 import { Providers } from "@microsoft/mgt";
 import TokenService from "services/REST_service/token.service";
@@ -259,7 +259,6 @@ Finally, the axios instance is exported for use in other parts of the applicatio
 
 The routes for authentication do not utalize VerifyToken() just yet, as the user does not have JWT tokens to offer the API. The following flow is used to authenticate a user:
 
-
 `app/routes/auth.routes.js`
 
 #### Defining the Authentication routes
@@ -346,10 +345,9 @@ require("dotenv").config();
 var jwt = require("jsonwebtoken");
 var bcrypt = require("bcryptjs");
 const LocationsModel = require("../models/Locations.model.js");
-
 ```
 
-This code is importing various packages and libraries that are needed for the program. It is also setting up variables that will be used in the program. 
+This code is importing various packages and libraries that are needed for the program. It is also setting up variables that will be used in the program.
 
 The first line of code is importing the models index.js file from the models folder. The second line of code is importing the auth.config file from the config folder. The third line of code is setting a variable called API to the environment variable Emply_api. The fourth line of code is setting a variable called Roles to the db object's ROLES property. The fifth line of code is importing jwt-decode library. The sixth line of code is setting a variable called Op to db object's Sequelize property's Op property. The seventh line of code is importing axios library. The eighth line of code is importing node-fetch library. The ninth line of code is requiring dotenv package and configuring it. Finally, the tenth line of code is setting a variable called RefreshToken to db object's refreshToken property.
 
@@ -371,9 +369,8 @@ This code is defining a function called handleQueryError. This function takes in
 #### Getting the user's Azure data
 
 ```js
-
 // Get the tenant ID from the decoded token
-let decoded = jwt_decode(bearer); 
+let decoded = jwt_decode(bearer);
 // Create an HTTP request to retrieve the user's profile from Azure AD
 let accessTokenReqOptions = {
   method: "GET",
@@ -411,7 +408,6 @@ if (result.length > 0) {
   Role = Roles[0];
 }
 return [await AzureData, await Role];
-
 ```
 
 This code is an asynchronous function that is used to get data from Azure. It takes two parameters, a bearer token and a response object. The code then decodes the token to get the tenant ID, creates an access token request option, and uses that to make two fetch requests. The first request is to get user data from the Microsoft Graph API, and the second request is to get group members from the same API. The code then checks if the user ID matches any of the group members, and assigns a role accordingly. Finally, it returns an array containing both the user data and role.
@@ -419,7 +415,6 @@ This code is an asynchronous function that is used to get data from Azure. It ta
 #### Getting users Employee data
 
 ```js
-
 async function getEmplyData(Email, res) {
   // set up options to pass to fetch
   let accessTokenReqOptionsEmply = {

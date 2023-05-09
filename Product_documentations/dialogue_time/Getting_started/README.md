@@ -66,7 +66,7 @@ then run
 
 The application starting point is `src/app/index.js`, much like a normal react app starting point. However here we also import our custom `store` and our `theme` (more on these later).
 
-```js
+```jsx
 import Authenticate from "./App/authenticate";
 import { StoreProvider } from "./context/store.js";
 import "assets/css/material-dashboard-react.css?v=1.10.0";

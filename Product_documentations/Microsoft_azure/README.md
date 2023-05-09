@@ -4,6 +4,7 @@ Our company utilizes Microsoft Azure Active Directory (Azure AD) for Single Sign
 
 Azure AD is a cloud-based identity and access management solution that provides a seamless and secure SSO experience for users. With Azure AD, users can sign in once and access multiple applications without the need to provide credentials again. This helps to simplify the user experience and increase productivity, while also ensuring security and compliance.
 
+> [!TIP]
 > For more information on Azure AD, see the [Azure AD documentation](https://docs.microsoft.com/en-us/azure/active-directory/).
 
 Below is an high level overview of the Azure AD SSO process:

@@ -6,7 +6,7 @@ The database connection code is defined in a try-catch block that catches any ex
 
 Here's an example of the database connection code:
 
-```js
+```php
 try {
   $sDatabaseUserName = '{user}';
   $sDatabasePassword = '{password}';
