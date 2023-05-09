@@ -39,6 +39,10 @@ To configure SSH in order to log in without a password:
 
 > To get the credentials to access the server please contact Jens the IT manager jpw@dialogueone.dk
 
+## Building and uploading the application
+
+You can find the instructions on how to build and upload the application here [Link to build and upload](HowTo/upload_build.md)
+
 ## Back end
 
 The backend API is located under the file `/var/www/html/apiV2`

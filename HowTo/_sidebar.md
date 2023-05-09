@@ -2,5 +2,6 @@
   - [How To](HowTo/README.md)
     - [How do document](HowTo/documentation.md)
     - [Access Data](HowTo/access_data.md)
+    - [Upload D-time Build](HowTo/upload_build.md)
 - [Project Management](Project_management/README.md)
 - [Product documentations](Product_documentations/README.md)
