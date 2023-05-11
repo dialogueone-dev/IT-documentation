@@ -9,6 +9,7 @@
       - [Non functional requirements](Product_documentations/dialogue_time/Product_requirments/Non_functional_requirments.md)
     - [Getting Started](Product_documentations/dialogue_time/Getting_started/README.md)
     - [Authentication](Product_documentations/dialogue_time/Authentication/README.md)
+    - [Managing Admins](Product_documentations/dialogue_time/admins.md)
     - [Code Documentation](Product_documentations/dialogue_time/Documentation/README.md)
   - [Lunch Application](Product_documentations/lunch_app/README.md)
   - [Ninox](Product_documentations/ninox/README.md)

@@ -21,3 +21,7 @@ This documentation shows how to use the server.
 > [How to create new Database with Ninox](Product_documentations/ninox/creating_database)
 
 This documentation shows how to create a new database with Ninox.
+
+> [How to Manage Admins in Dialogue Time](Product_documentations/dialogue_time/admins.md)
+
+This documentation shows how to manage admins in Dialogue Time.
