@@ -1,6 +1,6 @@
 <!-- start-content -->
 
-# Dialogue One Project Planning Documentation
+# Dialogue One Project Planning Documentation {docsify-ignore-all}
 
 > This is a document intended to inspire the use of project/product roadmaps within Dialogue One A/s
 

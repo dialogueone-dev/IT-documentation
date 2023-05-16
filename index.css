@@ -23,7 +23,42 @@ body[data-page="Learning/README.md"]
   max-width: 20%;
   width: 20%;
 }
-
+a {
+  text-decoration: underline !important;
+}
+.anchor,
+.app-name-link {
+  text-decoration: none !important;
+}
+.sidebar-nav a,
+nav a {
+  text-decoration: none !important;
+}
+.cluster rect {
+  fill: none !important;
+  stroke: none !important;
+}
+.node polygon {
+  fill: #313d50 !important;
+  color: white;
+  stroke: none !important;
+}
+.node rect {
+  fill: #8ba4cc !important;
+  color: white;
+  stroke: none !important;
+}
+.nodeLabel {
+  color: white !important;
+}
+.node path {
+  fill: #5567d9 !important;
+  color: white;
+  stroke: white !important;
+}
+.cluster span {
+  color: #313d50 !important;
+}
 /*` 
 body[data-page="Learning/README.md"] .content {
     margin-left: 10vw;

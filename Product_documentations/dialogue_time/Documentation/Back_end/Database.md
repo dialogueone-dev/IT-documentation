@@ -12,13 +12,11 @@ Furthermore, Sequalize models can be extended with predefined methods, such as b
 
 ![Database ERD](../../../../images/ERD.png "Database ERD")
 
-
 ### Transactions Data
 
 The database redesign focused on implementing a double transactional ledger, which resulted in two separate tables: an hours metadata table and a ledger table. When an entry is logged in the database, a metadata row and two ledger rows are created, and the transaction ID serves as a link between them. This approach created a clear separation of concerns, where one table is dedicated to user payroll and the other to project management. By splitting the tables, we achieved a more organized and efficient database structure.
 
 ![Database ERD](../../../../images/relational_diagram.png "Database ERD")
-
 
 ### Ledger table
 
@@ -30,7 +28,19 @@ The salary period column in the ledger table is related to the salary period tab
 
 The hours’ metadata table is used for project management purposes where the projects, the application logs tasks and other key performance indicators (KPIs) to track the progress of each project. The ledger table contains information about the logged hours, and by joining this table with the metadata table using the Transaction ID, a clear picture of the project status can be obtained. The relationship between the tables is transactional, meaning that a relation between logged hours and differed hours will never exist.
 
-Figure 4.18 depicts the transactional data diagram between the logged hours, ledger, and master log tables. It should be noted that the arrows representing user id and department id are mixed up in the graphical representation.
+The figure above depicts the transactional data diagram between the logged hours, ledger, and master log tables. It should be noted that the arrows representing user id and department id are mixed up in the graphical representation.
+
+### Salary period table
+
+The salary period table is a table that contains all the salary periods that have been created in the database. Using the front end application, the user can create a new salary period, which will be added to the salary period table. The salary period table contains the salary period ID, the start date of the salary period, and the end date of the salary period. The salary period table is used to determine the salary period of the logged hours and the differed hours.
+
+![Database ERD](../../../../images/salary_periods.png "Salary Period")
+
+### Master log table
+
+The master log table is a table that contains all the transactions that have been made in the database. It is a table that is created by using the Sequelize Hooks, which are functions that are called before or after a CRUD operation. The master log table contains the transaction ID, the user ID, the type of CRUD operation, and the date and time of the operation and if the CRUD operation is PUT, then it also stores the pervious data in a JSON format.
+
+![Database ERD](../../../../images/master_log.png "Master Log")
 
 ### Sequalize
 

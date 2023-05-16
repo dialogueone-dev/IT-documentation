@@ -14,6 +14,7 @@
         - [Configuration](Product_documentations/dialogue_time/Documentation/Front_end/Configuration.md)
         - [Architecture](Product_documentations/dialogue_time/Documentation/Front_end/Architecture.md)
         - [Axios](Product_documentations/dialogue_time/Documentation/Front_end/Axios.md)
+        - [Material UI](Product_documentations/dialogue_time/Documentation/Front_end/mui.md)
       - [PWA](Product_documentations/dialogue_time/Documentation/PWA.md)
   - [Lunch Application](Product_documentations/lunch_app/README.md)
   - [Ninox](Product_documentations/ninox/README.md)

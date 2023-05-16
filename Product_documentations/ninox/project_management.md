@@ -20,13 +20,37 @@ This documentation is about the project management team for Niniox, it will cove
 4. **Dev Team and Project Lead** then communicate with the team lead and test the database to make sure the data, qualifiers and processes are correctly implemented,
 5. **If not Dev Team will then fix it**.
 6. **Project Lead will** take ownership:
+
    - Get training on how to use the database.
    - Get training on how to support minor issues.
    - Train the team on how to use the database.
    - Test the database and report any bugs or issues to IT.
+
 7. **Dev Team** then support the database.
 
 ![Dev plan ven diagram](../../images/dev_plan_ninox_process.png)
+
+```mermaid
+flowchart TB
+subgraph 1St Requirements
+A{{Client}} -.-|Client Talks| C{{Business Development}}
+C -.->|Transfer Business Requirements| B{{Project Lead}}
+end
+subgraph Development
+B -.->|Transfer Requirements| E{{Dev Team}} -.-> |Development| G[(Pre-Production)]
+B -.-|Development| G
+end
+subgraph 2nd Testing
+G -.->|Does product satisfy requirements?| T{Testing} -.- Yes?
+Z>Project Lead/<br>Dev Team] -.-|Involved| T{Testing}
+T -.- No? -..->|Fix| G
+end
+subgraph 3rd Training
+Yes? -.-> |Launch| GS[(Production)] -.-> J([Onboarding]) -.->|Training| I{{Consultants}}
+J -.->|Training| M{{Support Team}}
+end
+
+```
 
 > ### Project Leaders
 

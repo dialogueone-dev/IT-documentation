@@ -1,4 +1,4 @@
-> # Frameworks and Methodologies in Software Design
+> # Frameworks and Methodologies in Software Design {docsify-ignore-all}
 
 In this module, you will learn about the most commonly used frameworks and methodologies for software design, including:
 

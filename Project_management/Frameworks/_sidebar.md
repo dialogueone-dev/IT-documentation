@@ -2,7 +2,7 @@
 - [Project Management](Project_management/README.md)
   - [Tools](Project_management/tools/README.md)
   - [Frameworks](Project_management/Frameworks/README.md)
-    - [Frameworks & Methodologies](Project_management/Frameworks/README.md)
+    - [Frameworks & Methodologies](Project_management/Frameworks/Frameworks.md)
     - [Human Centered Design](Project_management/Frameworks/User_centered_desing.md)
     - [Design Thinking](Project_management/Frameworks/Design_thinking.md)
     - [Agile Development](Project_management/Frameworks/Agile_development.md)
