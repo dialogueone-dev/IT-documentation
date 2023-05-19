@@ -116,8 +116,8 @@ Once the database is launched the Project Lead will take ownership of the databa
 ```mermaid
 flowchart LR
 G[(Production)] ===|Take ownership| PL>Project Lead]
-SU{{Super Users}} -.->|Assist if needed| J[Onboarding]
-SU{{Super Users}} -.->|Assist in coordination| I{{Consultants}}
+SU{{Super Users}} -.->|Assist coordination| J[Onboarding]
+SU{{Super Users}} -.->|Assist training| I{{Consultants}}
 PL o--o|Coordinate| J
 J o--o |Training| I{{Consultants}}
 PL --> |Train| I{{Consultants}}
@@ -200,8 +200,8 @@ This involves assisting the Project Leaders in training the consultants on how t
 ```mermaid
 flowchart LR
 
-SU>Super Users] -.->|Assist if needed| J[Onboarding]
-SU -.->|Assist in coordination| I{{Consultants}}
+SU>Super Users] -.->|Assist coordination| J[Onboarding]
+SU -.->|Assist training| I{{Consultants}}
 PL{{Project Lead}} o--o|Coordinate| J
 J o--o |Training| I{{Consultants}}
 PL{{Project Lead}} --> |Train| I{{Consultants}}
