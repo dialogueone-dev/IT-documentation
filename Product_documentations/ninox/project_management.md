@@ -136,6 +136,27 @@ Supporting the users on minor issues involves:
 
 > The support sequence when Project Lead is first point of contact
 
+The sequence of events ideally follows these steps:
+
+1. The user has an issue with the database.
+2. The user contacts the Project Lead.
+3. The Project Lead solves the issue.
+
+**If the Project Lead cannot solve the issue**
+
+4. Project Lead contacts the Super User.
+5. Super User solves the issue by either providing directions or making changes in the database **(consulting PL)**.
+6. Super User reports any changes to the Project Lead.
+7. Project Lead reports any changes to the user.
+
+**If the Super User cannot solve the issue**
+
+4. Super User contacts the Dev Team.
+5. Dev Team solves the issue by making changes in the database.
+6. Dev Team reports any changes to the Super User.
+7. Super User reports any changes to the Project Lead.
+8. Team Lead reports any changes to the consultants.
+
 ```mermaid
 sequenceDiagram
     Consultant->>Project Lead: Ask help with issue
@@ -144,6 +165,7 @@ sequenceDiagram
     Project Lead->>Super User: Consult Super User
       Super User->>Project Lead: Fix issues in database & report any changes
       Note left of Super User: Super Users can make alterations <br> in the database if needed
+      Project Lead->>Consultant: report back & assist
     else Issue is not Not solvable
       Super User->>Dev Team: report issue
       Note right of Super User: Contact Dev Team <br> only if issue cannot be solved
@@ -252,6 +274,25 @@ If the issue is not solvable, the Super Users should contact the Dev Team.
 
 > The support sequence when Super User is first point of contact
 
+Ideally the sequence of events are as follows:
+
+1. Consultant contacts Super User
+2. Super User assists consultant
+
+If the issue is needs altering the database
+
+3. Super User consults with Project Lead
+4. Project Lead gives green light on altering database
+5. Super User fixes issues & assists
+6. Super User reports any changes
+
+If the issue is not solvable
+
+3. Super User reports issue to Dev Team
+4. Dev Team fixes issue & reports any changes
+5. Super User reports back & assists
+6. Super User reports any changes
+
 ```mermaid
 sequenceDiagram
     Consultant->>Super User: Ask help with issue
@@ -286,4 +327,4 @@ The development team are the developers in the IT team. **`Ingimar`** **`Clara`*
 
 #### Responsibilities
 
-The responsibilities of the development team are to develop the database by implementing the business processes as communicated by Project Leads. They will also be responsible for the maintenance of the database and offer support to the users. Furthermore they will be responsible for the documentation of the database and training of the users
+The responsibilities of the development team are to develop the database by implementing the business processes as communicated by Project Leads. They will also be responsible for the maintenance of the database and offer support to the users. Furthermore they will be responsible for the documentation of the database and training of the users.

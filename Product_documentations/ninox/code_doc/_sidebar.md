@@ -10,4 +10,8 @@
     - [Project Management](Product_documentations/ninox/project_management.md)
     - [Create a new database](Product_documentations/ninox/creating_database.md)
     - [Code documentation](Product_documentations/ninox/code_doc/README.md)
+      - [Meetings Button](Product_documentations/ninox/code_doc/meetings_button.md)
+      - [Contact Buttons](Product_documentations/ninox/code_doc/contacts_button.md)
+      - [Contact History](Product_documentations/ninox/code_doc/contact_history.md)
+      - [Filtering](Product_documentations/ninox/code_doc/filtering.md)
   - [Project Status](Product_documentations/project_status/README.md)

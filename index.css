@@ -121,3 +121,6 @@ section.cover .cover-main > p:last-child a:hover {
   color: white !important;
   opacity: 1 !important;
 }
+code {
+  font-family: "Raleway", sans-serif !important;
+}
