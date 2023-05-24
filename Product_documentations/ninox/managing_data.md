@@ -61,7 +61,7 @@
 
 ## Creating a new record
 
-To create a new record in the `Addressen` table you need to navigate to activate the editing mode, navigate to the `Adressen` table, click the `+` button, then fill out the required fields.
+To create a new record in the `Addressen` table you need to activate the editing mode, navigate to the `Adressen` table, click the `+` button, then fill out the required fields.
 
 > [!NOTE]
 > Once the new record is created it's important to fill out the required fields such as `Dialogue Id` and `Company name` ect. The `Dialogue Id` should be one number higher than the highest `Dialogue Id` number.
