@@ -9,5 +9,6 @@
     - [Getting Started](Product_documentations/ninox/getting_started.md)
     - [Project Management](Product_documentations/ninox/project_management.md)
     - [Create a new database](Product_documentations/ninox/creating_database.md)
+    - [Managing Data](Product_documentations/ninox/managing_data.md)
     - [Code documentation](Product_documentations/ninox/code_doc/README.md)
   - [Project Status](Product_documentations/project_status/README.md)
