@@ -321,10 +321,23 @@ sequenceDiagram
 - Communicate with different project consultants to identify learnings and features implemented in different projects.
 - Know the potential of Ninox and think about how to best use that potential to enhance efficiency across projects
 
-> ### Development team
+### Development Team
 
-The development team are the developers in the IT team. **`Ingimar`** **`Clara`**. And two developers from the German business units.
+The Development Team, consisting of developers from the IT team, plays a crucial role in implementing and maintaining the Ninox database. Their responsibilities involve developing the database based on the requirements provided by the Project Leads, ensuring database maintenance, offering user support, and providing documentation and training to users.
 
 #### Responsibilities
 
-The responsibilities of the development team are to develop the database by implementing the business processes as communicated by Project Leads. They will also be responsible for the maintenance of the database and offer support to the users. Furthermore they will be responsible for the documentation of the database and training of the users.
+The Development Team has the following key responsibilities:
+
+1. **Database Development**: The team is responsible for developing the Ninox database, ensuring that the business processes and requirements communicated by the Project Leads are implemented effectively.
+
+2. **Database Maintenance**: The team is responsible for maintaining the database, including making necessary alterations, modifications, or additions to fields, tables, and views, based on the evolving business needs.
+
+3. **Super User Support**: The team provides support to users by addressing their queries, troubleshooting issues, and resolving technical problems related to the database.
+
+4. **Documentation**: The team ensures that comprehensive documentation is created for the Ninox database, including guidelines, manuals, and reference materials, to assist users in understanding the functionalities and best practices.
+
+5. **Training**: The team conducts training sessions for Super Users, focusing on familiarizing them with the database's features, functionality, and workflows. They ensure that users have the necessary skills and knowledge to effectively utilize the database for their specific tasks and responsibilities.
+
+> [!NOTE]
+> The Development Team works closely with the Project Leads and Super Users to align their efforts and ensure that the database development meets the requirements and expectations of the business units.
