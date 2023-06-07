@@ -40,9 +40,8 @@ The Address table serves as a repository of contact information provided by clie
 > [!Note]
 > There are more fields that are fixed, but these are the examples
 
-> ![Contacts](../../../../images/ninox_database_docs/structure_5.png)
+> ![Contacts](../../images/ninox_database_docs/structure_5.png)
 In the Address table view, you would see these fields
-
 
 
 In addition to the consistent fields, there are contact details specific to each lead, including:
@@ -61,7 +60,7 @@ In addition to the consistent fields, there are contact details specific to each
 > [!Note]
 > Depending on the data structure we receive from the client, these fields may also vary
 
-> ![Contacts](../../../../images/ninox_database_docs/structure_6.png)
+> ![Contacts](../../images/ninox_database_docs/structure_6.png)
 In the Address table view, you would see these fields
 
 ## Qualifiers
@@ -73,14 +72,14 @@ Qualifiers are fields used by consultants to assess the relevance or interest le
 
 The Contacts table is used to capture each interaction made with the leads. It is connected to the Address table through a relationship. Whenever a consultant uses the contact button in the Address table view, a new contact entry is created in the Contacts table. This enables tracking and storing of all interactions related to a specific contact.
 
-![Contacts](../../../../images/ninox_database_docs/structure_4.png)
+![Contacts](../../images/ninox_database_docs/structure_4.png)
 
 
 ## Meetings Subtable
 
 The Meetings subtable is a subtable within the Contacts table. It serves the purpose of recording meeting-related information. Similar to the Contacts table, the Meetings subtable is connected to the Address table via a relationship. Whenever a meeting is scheduled, a new contact entry is created, and the relevant meeting details are stored in the Meetings subtable.
 
-![Contacts](../../../../images/ninox_database_docs/structure_3.png)
+![Contacts](../../images/ninox_database_docs/structure_3.png)
 
 ## Rights to be Forgotten Table
 
