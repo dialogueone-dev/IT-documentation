@@ -6,6 +6,7 @@
   - [Lunch Application](Product_documentations/lunch_app/README.md)
   - [Ninox](Product_documentations/ninox/README.md)
     - [Setup](Product_documentations/ninox/Setup.md)
+      - [Sending Emails](Product_documentations/ninox/sending_emails.md)
     - [Getting Started](Product_documentations/ninox/getting_started.md)
     - [Project Management](Product_documentations/ninox/project_management.md)
       - [Requirements Capturing](Product_documentations/ninox/recuirements_capturing.md)
@@ -13,4 +14,5 @@
     - [Database structure](Product_documentations/ninox/database_structure.md)
     - [Managing Data](Product_documentations/ninox/managing_data.md)
     - [Code documentation](Product_documentations/ninox/code_doc/README.md)
+    - [Sending Emails](Product_documentations/ninox/sending_emails.md)
   - [Project Status](Product_documentations/project_status/README.md)

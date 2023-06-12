@@ -4,7 +4,117 @@ This section describes the code used to automate the email generation process wh
 
 ## Description
 
-The "Book Meeting" button is used to automate the process of creating a new contact record, a new meeting record, and generating a browser based email link to our clients about the newly booked meeting.
+The "Book Meeting" button is used to automate the process of creating a new contact record, a new meeting record, and generating an email to send to our client. There are two ways we do this in Ninox, one is by sending the email directly from Ninox, and the other is by opening the default email client with a pre-filled email ready to send.
+
+The first method is using our own Email servers as the client does not mind receiving emails from our servers. The second method is used when the client does not want to receive emails from our servers, and instead wants to receive emails from their own email servers.
+
+## 1st Example: Sending emails directly from Ninox
+
+> [!Note]
+> In the [Sending emails](Product_documentations/ninox/sending_emails.md) setup documentation you can find more information about how to setup the email server in Ninox.
+
+An email may need to be sent to our client informing them of the new Lead and booked meeting, as well as to the sales rep who booked the meeting. This can be done using the `sendEmail` function in Ninox.
+
+![image](../../../images/ninox_code_docs/email_doc.png)
+
+The following code does the following:
+
+1. Creates a new contact record and a new meeting record, and sets various fields in the records.
+2. Generates an CSV document containing various data fields that our clients want, and stores the document to the Contact record.
+3. Generates a string containing the history of contacts made with the contact, and stores it in the `History` variable.
+4. Composes an email using the `sendEmail` function, sending the email to the client on behalf of the consultant who booked the meeting. The email includes various data fields and their corresponding values, forming the email content and all files attached to the Contact record.
+
+### Creating the CSV file
+
+![image](../../../images/ninox_code_docs/email_doc_1.png)
+
+The first part of the code defines the columns for the CSV file, the final linebreak is used to separate the header from the data.
+
+```js
+let linebreak := "
+";
+let header := "`Column 1`, `Column 2`, ... more columns ..." + linebreak;
+```
+
+The next part of the code tells Ninox to create a temporary file with the header names
+
+```js
+URL := do as server
+		createTempFile(header, "export.csv")
+	end;
+```
+
+The next part of the code defines the data for the CSV file, seeing as we only need one row for the data there's no need to create a loop.
+
+```js
+let line := "`Data 1`, `Data 2`, ... more data ..."
+```
+
+> [!Note]
+> The column headers and data values are examples, the `Data 1` in the previous example would be a Ninox field in the view that's meant to be filled out by the user. Whilst the `Column 1` would be the name of the field in the CSV file.
+
+The next part tells Ninox to append the data to the CSV file and then to import it to the contact record.
+
+```js
+do as server
+	appendTempFile(URL, line)
+end;
+importFile(this, URL, "Qualifiers.csv");
+```
+
+### Generating the email content
+
+The next part of the code generates the email content, this is done by creating a string and then adding the various data fields to the string. The string is an HTML markup language, this allows us to format the email content in any way we want.
+
+```js
+// Define the text variable
+let text := "<p>Hello this is called a paragraph HTML tag</p>";
+
+// Add more fields to the text variable
+text := text + "<p>More text</p>";
+
+// Add specific form field content to the text
+text := text + "<p>" + text(Firstname) + "</p>";
+
+// Loop through all contact history and make a list
+let History := for H in 'Contacts made' do
+		H.Date + " " + H.Description + "<br>"
+end;
+
+// Add old contact history to new contact history
+let OlddescriptionURL := 'Old description';
+```
+
+### Sending the email
+
+Now putting it all together, we can use Ninox to send an email on our behalf, however please be aware the this requires proper access rights, so please check the [Sending emails](Product_documentations/ninox/sending_emails.md) documentation for more information.
+
+```js
+// Define the message as the text
+let message := text;
+// Define Title for the Dialog
+let title := "Review email";
+// Define the answer options for the Dialog
+let answerOptions := ["Yes, send email", "No! don't send"];
+// If the user clicks on "Yes, send email" then send the email
+if dialog(title, message, answerOptions) = "Yes, send email" then
+// Send the email with the sendEmail function and following parameters
+	sendEmail({
+		from: "{User email address}",
+		to: "{Client email address}",
+		subject: "Terminvereinbarung: " + Firma1,
+		text: "We received your request to get another copy of your invoice",
+		html: text,
+      // The below line attaches all the files from the contact record
+		attachments: files(this)
+	})
+end
+```
+
+> [!TIP]
+> The code here uses html markup language, rather than formatting the content into a URL string as you will read more about in the next section.
+
+## 2nd Example: Opening the default email client with a pre-filled email ready to send
 
 ![Book Meeting Button](../../../images/ninox_code_docs/meetings_1.png)
 
@@ -75,7 +185,7 @@ M.(User := userId());
 M.(Company := myID);
 M.(Contacts := D.Id);
 
-// Create a string containing the history of contacts made with the contact 
+// Create a string containing the history of contacts made with the contact
 let History := for H in 'Contacts made' do
     H.Date + " " + urlEncode(H.Description) + "%0A"
 end;
@@ -156,4 +266,3 @@ mailto:recipient@example.com?cc=cc1@example.com,cc2@example.com&subject=URL-enco
 ```
 
 When constructing the `mailto` link dynamically, make sure to properly format and URL-encode the values you want to include in the subject and body parameters to ensure accurate and valid results.
-
