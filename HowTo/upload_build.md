@@ -27,8 +27,8 @@ yarn build
 
 1. Open your FTP client and connect to the server.
 2. Navigate to the `/home/ftpdialogue/ftp/files/` directory.
-3. Delete the old Dialogue Time build.
-4. Upload the new Dialogue Time build to the server.
+3. Delete the old Dialogue Time build (dialogue_time_v2).
+4. Upload the new Dialogue Time build to the server and rename it to dialogue_time_v2.
 5. Open a terminal and connect to the server.
 6. Navigate to the `/var/www/html` directory and run this command.
 

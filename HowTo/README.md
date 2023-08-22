@@ -25,3 +25,7 @@ This documentation shows how to create a new database with Ninox.
 > [How to Manage Admins in Dialogue Time](Product_documentations/dialogue_time/admins.md)
 
 This documentation shows how to manage admins in Dialogue Time.
+
+> [How to Update Ninox](HowTo/update_docker_img.md)
+
+This documentation talks about how you might go about updating the Docker Image relating to Ninox.

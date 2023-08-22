@@ -6,5 +6,7 @@
     - [Use the server](Product_documentations/dialogue_time/Getting_started/README?id=ssh)
     - [Create new Database with Ninox](Product_documentations/ninox/creating_database)
     - [Manage Admins](Product_documentations/dialogue_time/admins.md)
+    - [Update Ninox](HowTo/update_docker_img.md)
+    - [Install Dialogue Time](HowTo/install_d1.md)
 - [Project Management](Project_management/README.md)
 - [Product documentations](Product_documentations/README.md)
