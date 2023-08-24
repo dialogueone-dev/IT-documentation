@@ -1,51 +1,53 @@
-> # Getting started
+# Getting Started with Ninox
 
-> To access Ninox, please visit https://ninox.dialogueone.com
+To access Ninox, please visit [https://ninox.dialogueone.com](https://ninox.dialogueone.com).
 
 ## Installation
 
-Ninox is a web-based application that runs on all browsers, so there is no need to install Ninox. However, we have discovered that using Firefox is best or even necessary for our needs when using Windows OS in order to be able to use the `mailto` links, which opens the Outlook application with prefilled information.
+Ninox is a web-based application that runs on all browsers, so there is no need to install Ninox itself. However, specific browser recommendations and additional tools may be required for optimal functionality.
 
-Therefore, if you are using Windows, please install the Firefox browser, Chrome should work on Mac OS.
+### Browser Recommendations
 
-### Microsoft 365.
+- **Windows OS**: Firefox is recommended or even necessary for Windows users to utilize the `mailto` links, which open the Outlook application with prefilled information.
+- **Mac OS**: Chrome should work on Mac OS.
 
-If you are using your personal computer, you can install Office 365 to get access to Microsoft Outlook, Teams etc. This will ensure that you have the right tools to use with Ninox.
+If you are using Windows, please install the Firefox browser.
 
-[See the installation instructions by following this link ](https://support.microsoft.com/en-us/office/download-and-install-or-reinstall-microsoft-365-or-office-2021-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658)
+### Microsoft 365
 
-### Where should I use Ninox?
+If you are using your personal computer, you may install Office 365 to access Microsoft Outlook, Teams, etc. This ensures compatibility with Ninox.
 
-Since we want to move away from the Remote Desktop environment, you should follow the next instructions on your computer rather than on the remote desktop.
+[See the installation instructions for Microsoft 365 here.](https://support.microsoft.com/en-us/office/download-and-install-or-reinstall-microsoft-365-or-office-2021-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658)
 
-## Setting up
+### Usage Environment
 
-There are a few settings that need to be updated in order to make the automations work as they should.
+Since we aim to move away from the Remote Desktop environment, please follow these instructions on your local computer rather than on the remote desktop.
 
-### Allowing – popups
+## Setting Up Ninox
 
-Firefox by default blocks all pop-up windows, to fix this go to the `Settings->Search` and search for Pop-up click on the `exeptions…` button, once there, add `https://ninox.dialogueone.com` by copying the link and pasting it into `Address of web site` then click on the `Allow` button, afterwards save the changes.
+To make the automations work as intended, a few settings need to be updated.
 
-### Setting default applications
+### Allowing Pop-ups in Firefox
 
-Once you click on a button in Ninox (inside the browser) that initiates a transfer on application use i.e., Email, Phone (softphone or other); the browser's inbuilt functionality takes over and should open your preferred application.
+1. Go to `Settings->Search` in Firefox.
+2. Search for "Pop-up" and click on the `Exceptions…` button.
+3. Add `https://ninox.dialogueone.com` by copying and pasting the link into `Address of website`.
+4. Click on the `Allow` button, then save the changes.
 
-By default, the browsers look at the operating systems defaults first, and offer you a choice of applications to use. We want to use Outlook and Softphone applications that have been set up for our needs.
+### Setting Default Applications
 
-### Default Firefox applications
+When clicking a button in Ninox that initiates a transfer to another application (e.g., Email, Phone), the browser's inbuilt functionality takes over.
 
-To initiate this, select the `Pick an app` by double clicking on it, If the application doesn`t appear in the list you might need to search for them using the prompts given.
+#### Default Firefox Applications
 
-To manually select an application for this, go to the `Settings->Search` and type mailto, on the right side of the `Content Type` is `Action` clicking on the down arrow opens a selection of applications, select`Use Outlook`. It should also be possible to use the browser-based Outlook application (which is needed for some projects).
+- **Email**: To set Outlook as the default email application, go to `Settings->Search`, type "mailto," and select `Use Outlook`.
+- **Phone**: To set the default phone application (e.g., IP Visions Connect software), follow the same steps as above.
 
-Similarly, when clicking on a phone number or a button that initiates a phone call, you must choose which application you want to use. As of writing, we use IP Visions Connect software, follow the same steps above to `Pick an app`.
+#### Default Windows Applications
 
-### Default Windows applications
+- **Windows 11**: Navigate to `Settings->Apps->Default apps`, then choose `Choose defaults by link type`. Search for `mailto` and `tel`, and select the desired applications.
+- **Windows 10**: Navigate to `Settings->Apps->Default apps`, then select `Choose default apps by protocol`. Scroll down to find `mailto` or `tel`.
 
-#### Windows 11
+## Conclusion
 
-It might be necessary to change the defaults within the operating systems as well, to do this navigate to `Settings->Apps->Default apps` navigate to the bottom of the list and choose `Choose defaults by link type`, there, you can search for `mailto` and `tel`, choose Outlook for `mailto` and the desired phone software used for `tel` links.
-
-#### Windows 10
-
-On Windows 10 navigate to `Settings->Apps->Default apps`, scrolling down to the bottom of the list and selecting the `Choose default apps by protocol` will open the list of protocols, to find `mailto` or `tel` you will need to scroll down.
+This guide provides the necessary steps to access and configure Ninox on your system. By following these instructions, you can ensure a seamless experience with Ninox and its integration with other applications. If you encounter any issues or need further assistance, please consult the official Ninox documentation or contact our support team.

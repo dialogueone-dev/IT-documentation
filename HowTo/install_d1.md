@@ -25,3 +25,5 @@ Progressive Web Applications (PWA) are web applications that offer a native app-
 4. **Select "Add to Home Screen"**: Tap on "Add to Home Screen."
 5. **Name the PWA**: You will be prompted to name the PWA. Enter a name, and then tap "Add."
 6. **Find the PWA on Your Home Screen**: The PWA will appear as an icon on your home screen, just like a native app. Tap on it to launch the PWA.
+
+Certainly! Below is a formal release note for Dialogue Time (web application) version 2.0.9, based on the details you provided.
