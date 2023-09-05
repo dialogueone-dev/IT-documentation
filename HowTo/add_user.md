@@ -17,7 +17,7 @@ The following flowchart visually represents the high-level procedure:
 
 ```mermaid
 flowchart TD
-    A(New User) -->|Needs Ninox Account| T[Register User in Ninox User \n group in Azure AD]
+    A(New User) -->|Needs Ninox Account| T[Contact Sotea/IT team]
     T --> C{Will send Email through \n the system?}
     C -->|Yes| D["Must add ninox@dialogueone.dk" \n as allowed Send As entity]
     C -->|No| G[Add new user to the Team \n within the Ninox UMS]
@@ -26,15 +26,18 @@ flowchart TD
 
 ### Methodology
 
-#### 1. Registering a New User in Azure AD
+#### 1. Requesting to add a user to Ninox
 
-**User Group**: The user group in Azure Directory is called `Ninox Users.` New users must be registered here.
+**Procedure**:
 
-**Steps to Register**:
+To add an existing consultant as a Ninox user, the word "Ninox" needs to be added to the "Office Location" field in the AD (Active Directory). You have two options to do this:
 
-1. Access Azure AD and navigate to the `Ninox Users` group.
-2. Click `Add User` and fill in the required details.
-3. Confirm and save the new user.
+1. **Contact the IT Team**: Reach out to either Jens Petersen-Westergaard (jpw@dialogueone.dk) or Clara Becker-Jostes (clbj@dialogueone.dk) and request them to add the new user to Ninox. The IT team will now coordinate with Sotea to add the user.
+
+2. **Contact Sotea Directly**: Write an email to Sotea (support@sotea.dk) asking them to add the user.
+   - Note: Sotea is familiar with this procedure and will know what to do when asked to add the consultant as a Ninox user.
+
+Once Sotea/the IT team confirms the update, proceed to the next steps.
 
 #### 2. Email Configuration (If Applicable)
 
