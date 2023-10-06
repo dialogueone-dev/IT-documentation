@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Understanding the dependencies and relationships between services running on a server is crucial for effective management and troubleshooting. Here's a list of services currently running on your server and their dependencies.
+Understanding the dependencies and relationships between services running on a server is crucial for effective management and troubleshooting. Here's a list of services currently running on our server and their dependencies.
 
 ### List of Services and Dependencies
 
