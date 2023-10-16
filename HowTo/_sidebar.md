@@ -7,6 +7,7 @@
     - [Create new Database with Ninox](Product_documentations/ninox/creating_database)
     - [Update Ninox](HowTo/update_docker_img.md)
     - [Add Ninox User](HowTo/add_user.md)
+    - [Update Ninox license](HowTo/update_Ninox_license.md)
     - [Manage Admins](Product_documentations/dialogue_time/admins.md)
     - [Install Dialogue Time](HowTo/install_d1.md)
 - [Project Management](Project_management/README.md)
