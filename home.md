@@ -24,6 +24,12 @@ A handbook, where aspects of project management are explained, including framewo
 
 Aimed to provide a comprehensive documentation of all the IT products.
 
+> Visma Time
+
+- [Visma Time](Product_documentations/visma_time/README.md)
+  - [Employees](Product_documentations/visma_time/Employees/README.md)
+  - [Projects](Product_documentations/visma_time/Projects/README.md)
+
 > Microsoft Azure
 
 - [Microsoft Azure](Product_documentations/Microsoft_azure/README.md)
@@ -84,3 +90,7 @@ Aimed to provide a comprehensive documentation of all the IT products.
       - [REST API](Product_documentations/project_status/code_documentation/backend/REST.md)
     - [Frontend](Product_documentations/project_status/code_documentation/frontend/front_end.md)
       - [Writing to document](Product_documentations/project_status/code_documentation/frontend/document.md)
+
+> Project Status Converter
+
+- [Project Status Converter](Product_documentations/project_status_converter/README.md)

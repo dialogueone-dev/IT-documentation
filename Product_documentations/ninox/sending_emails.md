@@ -50,7 +50,7 @@ In cases where individual users need to be added to the 'Send As' configuration:
 
 3. **Select the Email Account**: Find and select the email account (e.g., someuser@dialogueone.dk) you wish to configure.
 
-4. **Manage Send As Permissions**: Under `mailbox delegation`, scroll down to the 'Send As' section and click `Add`.
+4. **Manage Send As Permissions**: Under `delegation`, select the 'Send As' section and click `Add members`.
 
 5. **Add Users**: Select the `ninox@dialogueone.dk` user to grant 'Send As' permissions to and click `Add`.
 

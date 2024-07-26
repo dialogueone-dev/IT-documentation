@@ -1,6 +1,7 @@
 - [Home](README.md)
 - [Project Management](Project_management/README.md)
 - [Product documentations](Product_documentations/README.md)
+  - [Visma Time](Product_documentations/visma_time/README.md)
   - [Dialogue Time](Product_documentations/dialogue_time/README.md)
   - [Lunch Application](Product_documentations/lunch_app/README.md)
     - [Business Case](Product_documentations/lunch_app/Business_case.md)

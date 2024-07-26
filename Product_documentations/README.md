@@ -10,6 +10,7 @@ Whether you're a developer looking to integrate our products into your own proje
 
 Select a product from the list below to get started.
 
+- [Visma Time](Product_documentations/visma_time/README.md)
 - [Dialogue Time](Product_documentations/dialogue_time/README.md)
 - [Lunch Application](Product_documentations/lunch_app/README.md)
 - [Ninox](Product_documentations/ninox/README.md)
