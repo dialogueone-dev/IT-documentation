@@ -29,7 +29,7 @@ Aimed to provide a comprehensive documentation of all the IT products.
 - [Visma Time](Product_documentations/visma_time/README.md)
   - [Employees](Product_documentations/visma_time/Employees/README.md)
   - [Projects](Product_documentations/visma_time/Projects/README.md)
-  - [Product Maintenance](Product_documentations/visma_time/Maintenance/README.md)
+  - [Product Maintenance and Troubleshooting](Product_documentations/visma_time/Maintenance/README.md)
 
 > Microsoft Azure
 
