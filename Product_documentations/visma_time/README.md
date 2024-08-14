@@ -15,8 +15,7 @@ In our company, Visma Time is utilized for precise tracking of employee hours an
   - [Managing Activities](Product_documentations/visma_time/Projects/activities.md)
   - [Managing Approvers](Product_documentations/visma_time/Projects/approvers.md)
 
-- [Product Maintenance](Product_documentations/visma_time/Maintenance/README.md)
-  - [Roles and Responsibilities Guide](Product_documentations/visma_time/Maintenance/README.md)
+- [Product Maintenance and Troubleshooting](Product_documentations/visma_time/Maintenance/README.md)
 
 In the following pages, we will dive deeper into these topics, providing detailed guidance and instructions for these aspects of the system.
 
