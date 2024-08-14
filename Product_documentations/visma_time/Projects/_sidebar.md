@@ -9,7 +9,7 @@
       - [Managing Employee Access](Product_documentations/visma_time/Projects/employee_access.md)
       - [Managing Activities](Product_documentations/visma_time/Projects/activities.md)
       - [Managing Approvers](Product_documentations/visma_time/Projects/approvers.md)
-    - [Product Maintenance](Product_documentations/visma_time/Maintenance/README.md)
+    - [Product Maintenance and Troubleshooting](Product_documentations/visma_time/Maintenance/README.md)
   - [Microsoft Azure](Product_documentations/Microsoft_azure/README.md)
   - [Dialogue Time](Product_documentations/dialogue_time/README.md)
     - [Business Case](Product_documentations/dialogue_time/Busines_case.md)
