@@ -2,6 +2,9 @@
 
 There are two ways of creating new employees in Visma Time, depending on whether they already have a CPR number or not.
 
+> [!NOTE]
+> The email must be filled in Visma Løn for the employee to be created (as the email is used as the username in order to use Microsoft SSO).
+
 ### The New Employee has a CPR Number
 
 If the new employee has a CPR number, they should first be created in Visma Løn and will then appear under "Nye lønmodtagere" in "Medarbejdere" in Visma Time. The employee should then be created in Visma Time as follows:
@@ -23,9 +26,6 @@ Once they have received a CPR number and are created in Visma Løn, the followin
 3. Double-click on the existing contract.
 4. Under "Lønmodtager navn", select the relevant employee.
 5. Save the changes.
-
-> [!NOTE]
-> The email must be filled in Visma Løn for the employee to be created (as the email is used as the username in order to use Microsoft SSO).
 
 > Remember to set up the standard working hours (normtid) for salaried employees.
 
