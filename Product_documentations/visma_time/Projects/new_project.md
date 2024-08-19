@@ -10,3 +10,8 @@ To create a new project, follow these steps (please note that only the mentioned
 6. Uncheck "Åben for alle medarbejdere" (unless the project should be accessible to all employees).
 7. Uncheck "Åben for alle aktiviteter."
 8. Select "Gem."
+
+Once the project is created, it will appear in the overview of all projects.
+
+> [!NOTE]
+> To make the overview of all projects as clear as possible, it is recommended to group projects by clients. This can be done by clicking on the "Kundenavn" column and selecting "Gruppér".

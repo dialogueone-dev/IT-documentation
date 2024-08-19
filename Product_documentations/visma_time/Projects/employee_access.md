@@ -2,16 +2,19 @@
 
 When the project and sub-projects are created, employee access must be managed for both the project and the sub-projects.
 
-Employee access can be granted to a department or specific employees.  
-**Where possible, access is granted at the department level; otherwise, it is granted at the employee level.**  
+Employee access can be granted to a department or specific employees.
+
+> Where possible, access is granted at the department level; otherwise, it is granted at the employee level.
+
 For example, for external projects, access to the sub-project "Project Administration Support" is granted at the department level to departments 202 - Client and Project Services, 300 - HR Administration and Development, and 301 - HR Support, while access to the sub-project "Calling" is granted at the employee level to the employees working on that project.
 
-Employee access must be granted for both the project and the sub-projects.  
+> Employee access must be granted for both the project and the sub-projects.
+
 On the project, access must be given to all departments and employees who need to log hours on the sub-projects, and on each sub-project, access must be granted to the departments and employees who need to log hours on that specific sub-project.
 
 ### How to Manage Employee Access in Visma Time
 
-**To edit employee access on projects/sub-projects, follow these steps:**
+To edit employee access on projects/sub-projects, follow these steps:
 
 1. Navigate to "Projekter."
 2. Double-click on the project for which you want to change employee access.

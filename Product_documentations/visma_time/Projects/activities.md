@@ -8,7 +8,9 @@ To do this, follow these steps:
 2. Check the desired activities.
 3. In the black bar at the bottom of the page, select "Giv adgang."
 
-**Activities on sub-projects for external projects:**
+### Activities on sub-projects for external projects
+
+Below is an overview of the activities that the sub-projects on external projects should include.
 
 | Sub-Project                    | Activities Funktionær          | Activities Timelønnede         |
 | ------------------------------ | ------------------------------ | ------------------------------ |
@@ -24,4 +26,4 @@ To do this, follow these steps:
 | Database maintenance           | Arbejdstid                     | Arbejdstid                     |
 
 > [!NOTE]
-> Please note that activities must be selected for the project (even though no hours are logged on it), otherwise it will not be available.
+> Please note that activities must also be added for the project (even though no hours are logged on it), otherwise it will not be available.

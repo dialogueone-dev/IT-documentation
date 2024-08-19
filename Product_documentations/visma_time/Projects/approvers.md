@@ -1,6 +1,15 @@
 # How to Manage Approvers on Projects in Visma Time
 
-Hours in Visma Time must be approved before they are sent to Visma Løn. There are four levels of approvers: First, second, third, and final approver. The first, second, and third approvers depend on the project or department, while Ole Klitgaard is the only final approver. Once the hours are finally approved, they can no longer be edited and can no longer be approved by a lower-level approver. This means that if a report, for example, is approved by the third approver, it can no longer be approved by the first or second approver.
+Hours in Visma Time must be approved before they are sent to Visma Løn.
+
+> There are four levels of approvers: First, second, third, and final approver.
+
+The first, second, and third approvers depend on the project or department, while Ole Klitgaard is the only final approver. Once the hours are finally approved, they can no longer be edited and can no longer be approved by a lower-level approver. This means that if a report, for example, is approved by the third approver, it can no longer be approved by the first or second approver.
+
+> Approvers can be assigned to projects or departments.
+
+For **external projects**, the approvers should be the project lead(s) and Robert Splett/Katrin Barnes (?).  
+For **internal projects**, no approvers need to be assigned, as these reports should be approved at the departmental level.
 
 To edit **approvers on a project**, follow these steps:
 

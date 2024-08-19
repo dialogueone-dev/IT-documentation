@@ -1,6 +1,6 @@
 # How to Create a New Sub-Project in Visma Time
 
-When the project is created, it will appear in the overview of all projects, grouped by client. To create sub-projects (tasks/processes), follow these steps:
+To create sub-projects (tasks/processes), follow these steps:
 
 1. Double-click on the project.
 2. Under the "Underprojekter" tab, click the blue plus sign at the bottom right corner and select "Opret projekt".

@@ -4,13 +4,13 @@ In our company, Visma Time is utilized for precise tracking of employee hours an
 
 - [Employees](Product_documentations/visma_time/Employees/README.md)
 
-  - [Handling of New Employees](Product_documentations/visma_time/Employees/new_employees.md)
-  - [Establishment of Standard Time (_Normtid_ for Salaried Employees)](Product_documentations/visma_time/Employees/standard_time.md)
+  - [Handling New Employees](Product_documentations/visma_time/Employees/new_employees.md)
+  - [Establishing Standard Time (_Normtid_ for Salaried Employees)](Product_documentations/visma_time/Employees/standard_time.md)
 
 - [Projects](Product_documentations/visma_time/Projects/README.md)
 
-  - [Creation and Maintenance of Projects](Product_documentations/visma_time/Projects/new_project.md)
-  - [Creation and Maintenance of Sub-Projects](Product_documentations/visma_time/Projects/new_sub_project.md)
+  - [Creating Projects](Product_documentations/visma_time/Projects/new_project.md)
+  - [Creating Sub-Projects](Product_documentations/visma_time/Projects/new_sub_project.md)
   - [Managing Employee Access](Product_documentations/visma_time/Projects/employee_access.md)
   - [Managing Activities](Product_documentations/visma_time/Projects/activities.md)
   - [Managing Approvers](Product_documentations/visma_time/Projects/approvers.md)
