@@ -13,7 +13,7 @@ Projects in Visma Time can be divided into two main categories: external and int
 When creating new projects please note that for internal projects, the client is Dialogue One A/S.
 
 > When creating new projects in Visma Time, the following steps are taken:  
-> Create project → Create sub-projects → Manage employee access → Assign activities → Add approvers
+> Create project → Create sub-projects → Manage employee access → Assign activities
 
 > [!NOTE]
 > Both the **project and sub-projects must have employee access and activities assigned**, otherwise they will not be available for time registration.
