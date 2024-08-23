@@ -1,5 +1,15 @@
 # Product Maintenance and Troubleshooting
 
+### Roles and Responsibilities
+
+Below is an overview of the departments' responsibilities in Visma Time:
+
+| Task                            | Department                                           |
+| ------------------------------- | ---------------------------------------------------- |
+| External Projects               | 200 - Client and Project Services - S and M accounts |
+| Internal Projects               | 300 - HR and Project Operation                       |
+| Employee access on all projects | 300 - HR and Project Operation                       |
+
 ### General Approach to Issues and Questions in Visma Time
 
 For questions or issues, the following approach can be taken:
@@ -12,7 +22,6 @@ _**Who should be contacted for access to the customer portal?**_
 
 ### Error in Integration with Visma Løn or e-conomic
 
-If there is an error in the integration with either Visma Løn or e-conomic, it will be displayed on the dashboard in Visma Time, as shown in the image below. To correct the error, open a ticket in the [customer portal](https://vismaenterpriseas.my.site.com) with information about where the error is.  
-In the example below, the error is in the **synchronization** within the integration with **e-conomic**. Visma will then address the issue.
+If there is an error in the integration with either Visma Løn or e-conomic, it will be displayed on the dashboard in Visma Time, as shown in the image below. To correct the error, open a ticket in the [customer portal](https://vismaenterpriseas.my.site.com) with information about where the error is. In the example below, the error is in the **synchronization** within the integration with **e-conomic**. Visma will then address the issue.
 
 ![Dashboard error](../../../images/visma_time/visma_time_dashboard_error.png)
