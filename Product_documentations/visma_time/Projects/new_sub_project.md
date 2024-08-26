@@ -25,5 +25,7 @@ Below is a list of sub-projects that an **external** project should include:
 - Database development
 - Database maintenance
 
+> It is recommended to copy and paste the above sub-projects to Visma Time to ensure consistency in spelling and capitalization.
+
 > [!NOTE]
 > Since sub-projects refer to tasks/processes, the naming of sub-projects should, as much as possible, follow this convention. This means that the sub-project's name should be an activity that can be performed, such as "Calling" or "Project Development."

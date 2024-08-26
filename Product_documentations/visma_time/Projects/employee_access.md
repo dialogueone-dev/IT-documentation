@@ -6,7 +6,7 @@ Employee access can be granted to a department or specific employees.
 
 > Where possible, access is granted at the department level; otherwise, it is granted at the employee level.
 
-For example, for external projects, access to the sub-project "Project Administration Support" is granted at the department level to departments 202 - Client and Project Services, 300 - HR Administration and Development, and 301 - HR Support, while access to the sub-project "Calling" is granted at the employee level to the employees working on that project.
+For example, for external projects, access to the sub-project "Project Administration Support" is granted at the department level to departments 202 - Client and Project Services - S&M Accounts, 300 - HR and Project Operation, 301 - HR Support, and 303 - Project Support while access to the sub-project "Calling" is granted at the employee level to the employees working on that project.
 
 > Employee access must be granted for both the project and the sub-projects.
 
@@ -39,17 +39,17 @@ To edit employee access on **sub-projects**:
 Below you will find a list of which departments and employees should have access to which sub-projects on external projects.  
 Remember that all mentioned departments and employees must also have access to the main project in order to log their hours on the sub-projects they are assigned access to.
 
-| Sub-Project                    | Department Access                                                                                                                  | Employee Access   |
-| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| Calling                        | -                                                                                                                                  | All consultants\* |
-| Project lead                   | -                                                                                                                                  | Project lead(s)   |
-| Internal client meeting        | -                                                                                                                                  | All consultants\* |
-| Training/coaching received     | -                                                                                                                                  | All consultants\* |
-| Support training/QC            | -                                                                                                                                  | All consultants\* |
-| Technical problem              | 202 Client and Project Services, 300 HR Administration and Development, 301 HR Support                                             | All consultants\* |
-| Project administration support | 202 Client and Project Services, 2022 Client Database and Tools Development, 300 HR Administration and Development, 301 HR Support | -                 |
-| Project development            | 202 Client and Project Services, 300 HR Administration and Development, 301 HR Support                                             | -                 |
-| Database development           | 202 Client and Project Services, 2022 Client Database and Tools Development                                                        | -                 |
-| Database maintenance           | 202 Client and Project Services, 2022 Client Database and Tools Development                                                        | -                 |
+| Sub-Project                    | Department Access                                                                                                                                                    | Employee Access   |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| Calling                        | -                                                                                                                                                                    | All consultants\* |
+| Project lead                   | -                                                                                                                                                                    | Project lead(s)   |
+| Internal client meeting        | -                                                                                                                                                                    | All consultants\* |
+| Training/coaching received     | -                                                                                                                                                                    | All consultants\* |
+| Support training/QC            | -                                                                                                                                                                    | All consultants\* |
+| Technical problem              | 202 Client and Project Services - S&M Accounts<br>300 HR and Project Operation<br>301 HR Support<br>303 Project Support                                              | All consultants\* |
+| Project administration support | 202 Client and Project Services - S&M Accounts<br>203 Client Database and Tools Development<br>300 HR and Project Operation<br>301 HR Support<br>303 Project Support | -                 |
+| Project development            | 202 Client and Project Services - S&M Accounts<br>300 HR and Project Operation<br>301 HR Support<br>303 Project Support                                              | -                 |
+| Database development           | 202 Client and Project Services<br>203 Client Database and Tools Development                                                                                         | -                 |
+| Database maintenance           | 202 Client and Project Services<br>203 Client Database and Tools Development                                                                                         | -                 |
 
 \* All consultants working on that specific project including project lead(s).
