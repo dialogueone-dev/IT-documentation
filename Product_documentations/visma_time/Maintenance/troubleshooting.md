@@ -27,7 +27,7 @@ Make sure the [department/employee has access](Product_documentations/visma_time
 Make sure [activities (e.g., "Arbejdstid") are added](Product_documentations/visma_time/Projects/activities.md) to both the project and sub-project.
 
 **The project's status**  
-Make sure the [project is active]()
+Make sure the [project is active](Product_documentations/visma_time/Projects/closing_project.md)
 
 If none of the above work, refer to [Visma's own guidelines](https://community.visma.com/t5/Vejledninger-i-Visma-Time/tkb-p/DK_EN_Visma-Time_Vejledninger) or contact [Visma's support](https://vismaenterpriseas.my.site.com) for additional help and assistance.
 
