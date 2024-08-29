@@ -14,4 +14,7 @@ To calculate flex time, standard time (normtid) must be set up for salaried empl
 10. Under "Gentag?" select the days for which the standard time should apply.
 11. Select "Gem".
 
+> [!NOTE]
+> By following the steps above, new fields will appear/disappear as you fill in the fields—this is correct.
+
 > For further details, please refer to the [recording from the introduction](https://drive.google.com/file/d/1MPGeUmRteXMQVe_OqVtYNaGs0aFUJfHr/view?usp=sharing) around [00:03:15] and [Visma's own guidelines](https://community.visma.com/t5/Vejledninger-i-Visma-Time/Sadan-oprettes-og-vedligholdes-Planlaegning-i-Visma-Time/ta-p/360043?attachment-id=11783)

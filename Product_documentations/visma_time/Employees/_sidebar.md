@@ -7,7 +7,7 @@
       - [Standard Time](Product_documentations/visma_time/Employees/standard_time.md)
       - [Managing Approvers](Product_documentations/visma_time/Employees/approvers.md)
     - [Projects](Product_documentations/visma_time/Projects/README.md)
-    - [Product Maintenance and Troubleshooting](Product_documentations/visma_time/Maintenance/README.md)
+    - [Operations and Support Guide](Product_documentations/visma_time/Maintenance/README.md)
   - [Microsoft Azure](Product_documentations/Microsoft_azure/README.md)
   - [Dialogue Time](Product_documentations/dialogue_time/README.md)
     - [Business Case](Product_documentations/dialogue_time/Busines_case.md)
