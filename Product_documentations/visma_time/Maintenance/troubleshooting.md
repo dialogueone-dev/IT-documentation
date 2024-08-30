@@ -10,8 +10,6 @@ For questions or issues, the following approach can be taken:
 2. Refer to [Visma's own guidelines](https://community.visma.com/t5/Vejledninger-i-Visma-Time/tkb-p/DK_EN_Visma-Time_Vejledninger) for further information.
 3. Use [Visma's Customer Portal](https://vismaenterpriseas.my.site.com) for additional help and assistance.
 
-_**Who should be contacted for access to the customer portal?**_
-
 ## Common Issues and How to Fix Them
 
 Below is a list of some common errors and how they can be resolved.
@@ -21,13 +19,16 @@ Below is a list of some common errors and how they can be resolved.
 If a project does not appear in the dropdown menu of available projects when reporting time, the cause could be due to several factors:
 
 **Employee access on the project and sub-project**  
-Make sure the [department/employee has access](Product_documentations/visma_time/Projects/employee_access.md) to both the project and sub-project.
+Make sure the [department has access](Product_documentations/visma_time/Projects/employee_access.md) to both the project and sub-project.
+
+**Department on the employee**  
+Make sure the [employee is added to the correct department](Product_documentations/visma_time/Employees/new_employees.md#adding-the-new-employee-to-a-department).
 
 **Activities on the project and sub-project**  
 Make sure [activities (e.g., "Arbejdstid") are added](Product_documentations/visma_time/Projects/activities.md) to both the project and sub-project.
 
 **The project's status**  
-Make sure the [project is active](Product_documentations/visma_time/Projects/closing_project.md)
+Make sure the [project is active](Product_documentations/visma_time/Projects/closing_project.md).
 
 If none of the above work, refer to [Visma's own guidelines](https://community.visma.com/t5/Vejledninger-i-Visma-Time/tkb-p/DK_EN_Visma-Time_Vejledninger) or contact [Visma's support](https://vismaenterpriseas.my.site.com) for additional help and assistance.
 
