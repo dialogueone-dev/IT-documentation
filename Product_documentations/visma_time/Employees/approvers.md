@@ -6,6 +6,8 @@ Hours in Visma Time must be approved before they are sent to Visma Løn.
 
 The first, second, and third approvers depend on the department, while Ole Klitgaard is the only final approver. Once the hours are finally approved, they can no longer be edited and can no longer be approved by a lower-level approver. This means that if a report, for example, is approved by the third approver, it can no longer be approved by the first or second approver.
 
+> The approver structure is set up at the department level.
+
 ### How to Edit Approver Level for Employees
 
 The level of approver is assigned to the employee. To edit this, follow these steps:
