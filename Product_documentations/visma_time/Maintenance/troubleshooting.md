@@ -18,7 +18,7 @@ Below is a list of some common errors and how they can be resolved.
 
 If a project is not available when reporting time, the cause could be due to several factors:
 
-**Projects Are Not Updated in the Browser/App**
+**Projects Are Not Updated in the Browser/App**  
 Refreshing the page or app ensures that the projects the employee has access to are up to date. In the app, pull down from the top to refresh.
 
 **Employee Access on the Project and Sub-Project**  
