@@ -16,7 +16,11 @@ Below is a list of some common errors and how they can be resolved.
 
 ### Project is not Available for Time Reporting
 
-If a project does not appear in the dropdown menu of available projects when reporting time, the cause could be due to several factors:
+If a project is not available when reporting time, the cause could be due to several factors:
+
+**Projects Are Not Updated in the Browser/App**
+
+Refreshing the page or app ensures that the projects the employee has access to are up to date. In the app, pull down from the top to refresh.
 
 **Employee access on the project and sub-project**  
 Make sure the [department has access](Product_documentations/visma_time/Projects/employee_access.md) to both the project and sub-project.
