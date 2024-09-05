@@ -21,16 +21,16 @@ If a project is not available when reporting time, the cause could be due to sev
 **Projects Are Not Updated in the Browser/App**
 Refreshing the page or app ensures that the projects the employee has access to are up to date. In the app, pull down from the top to refresh.
 
-**Employee access on the project and sub-project**  
+**Employee Access on the Project and Sub-Project**  
 Make sure the [department has access](Product_documentations/visma_time/Projects/employee_access.md) to both the project and sub-project.
 
-**Department on the employee**  
+**Department on the Employee**  
 Make sure the [employee is added to the correct department](Product_documentations/visma_time/Employees/new_employees.md#adding-the-new-employee-to-a-department).
 
-**Activities on the project and sub-project**  
+**Activities on the Project and Sub-Project**  
 Make sure [activities (e.g., "Arbejdstid") are added](Product_documentations/visma_time/Projects/activities.md) to both the project and sub-project.
 
-**The project's status**  
+**The Project's Status**  
 Make sure the [project is active](Product_documentations/visma_time/Projects/closing_project.md).
 
 If none of the above work, refer to [Visma's own guidelines](https://community.visma.com/t5/Vejledninger-i-Visma-Time/tkb-p/DK_EN_Visma-Time_Vejledninger) or contact [Visma's support](https://vismaenterpriseas.my.site.com) for additional help and assistance.
