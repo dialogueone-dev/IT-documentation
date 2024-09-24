@@ -21,7 +21,7 @@ Importing data into the Ninox database allows you to quickly populate the Addres
 3. Click `Next` and select the CSV file you want to import. Note that the data must be in CSV format. Ensure that the CSV file contains the necessary contact information.
 
 > [!NOTE]
-> It's essential to ensure that the data in the CSV file matches the expected format in Ninox. Additionally, pay attention to the date formats, as they need to match between the CSV file and the Ninox database.
+> It's essential to ensure that the data in the CSV file matches the expected format in Ninox. Additionally, pay attention to the **date** and **number** formats in the CSV file and make sure to select the according format in Ninox, as they need to match between the CSV file and the Ninox database.
 
 ![Template database](../../images/template_database_13.png)
 
@@ -42,7 +42,7 @@ Importing data into the Ninox database allows you to quickly populate the Addres
 
 5. Click `Next` to preview the changes made by the import process. Review the preview carefully to ensure that the data is correctly aligned with the desired fields in the Ninox database.
 
-6. Verify that the dates are correctly imported and displayed in the preview. Pay attention to the date format, as Ninox uses your system's default settings. Even if you specified `yyyy-mm-dd` in the import wizard, the dates may be displayed as `dd-mm-yyyy` in Ninox. 
+6. Verify that the dates are correctly imported and displayed in the preview. Pay attention to the date format, as Ninox uses your system's default settings. Even if you specified `yyyy-mm-dd` in the import wizard, the dates may be displayed as `dd-mm-yyyy` in Ninox.
 
 ![Template database](../../images/template_database_17.png)
 
@@ -89,5 +89,3 @@ To remove a record from the database, follow these steps:
 
 > [!NOTE]
 > Exercise caution when deleting records, as the deletion process is irreversible. Make sure to review and confirm the deletion before proceeding.
-
-
