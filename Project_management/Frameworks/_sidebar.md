@@ -9,4 +9,4 @@
     - [DevOps](Project_management/Frameworks/Devops.md)
     - [Information Architecture](Project_management/Frameworks/InformationArchitecture.md)
   - [D-Time](Project_management/D_time/README.md)
-- [Product documentations](Project_management/README.md)
+- [Product Documentations](Project_management/README.md)

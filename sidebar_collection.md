@@ -6,7 +6,7 @@
     - [How to use the server](Product_documentations/dialogue_time/Getting_started/README?id=ssh)
     - [How to create new Database with Ninox](Product_documentations/ninox/creating_database)
 - [Project Management](Project_management/README.md)
-- [Product documentations](Product_documentations/README.md)
+- [Product Documentations](Product_documentations/README.md)
 - [Visma Time](Product_documentations/visma_time/README.md)
   - [Employees](Product_documentations/visma_time/Employees/README.md)
   - [Projects](Product_documentations/visma_time/Projects/README.md)

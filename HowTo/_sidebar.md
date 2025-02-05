@@ -11,4 +11,4 @@
     - [Manage Admins](Product_documentations/dialogue_time/admins.md)
     - [Install Dialogue Time](HowTo/install_d1.md)
 - [Project Management](Project_management/README.md)
-- [Product documentations](Product_documentations/README.md)
+- [Product Documentations](Product_documentations/README.md)

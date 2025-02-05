@@ -1,6 +1,6 @@
 # Handling New Employees
 
-There are two ways of creating new employees in Visma Time, depending on whether they already have a CPR number or not.  
+There are three ways to add employees in Visma Time: creating a new employee with a CPR number, creating a new employee without a CPR number, or rehiring a former employee.  
 Once the employee is created, they need to be added to the correct department.
 
 > [!NOTE]
@@ -28,6 +28,18 @@ Once they have received a CPR number and are created in Visma Løn, the followin
 3. Double-click on the existing contract.
 4. Under "Lønmodtager navn", select the relevant employee.
 5. Save the changes.
+
+### Rehiring a Former Employee
+
+If a former employee is rehired, follow these steps:
+
+1. Navigate to "Medarbejdere".
+2. To display inactive employees, reset the search field in the upper right corner by clicking the dropdown arrow, selecting "Nulstil", and then "Søg".
+3. Double-click on the relevant employee.
+4. Go to the "Kontrakter" tab.
+5. Click on the blue plus sign in the bottom right corner.
+6. Select "Arbejdsmodel," "Arbejdstidsaftale," "Startdato," and choose the correct employee under "Lønmodtager navn".
+7. Select "Gem".
 
 ### Adding the New Employee to a Department
 

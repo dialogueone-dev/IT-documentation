@@ -20,7 +20,7 @@ A guide, which is a collection of guides on how to do certain things. This can b
 
 A handbook, where aspects of project management are explained, including frameworks, tools and examples.
 
-> **[Product documentations](Product_documentations/README.md)**
+> **[Product Documentations](Product_documentations/README.md)**
 
 Aimed to provide a comprehensive documentation of all the IT products.
 
