@@ -11,7 +11,7 @@ To calculate flex time, standard time (normtid) must be set up for salaried empl
 7. Enter the number of hours under "Antal".
 8. Under "Vælg vagt", choose "Fleks" - **important, as flex time will not be calculated otherwise** (however, this is not filled for employees in "fleksjob").
 9. Check the box "Planen fortsætter uendeligt".
-10. Under "Gentag?" select the days for which the standard time should apply.
+10. Under "Gentag?" select the days for which the standard time should _not_ apply (i.e., Saturday and Sunday).
 11. Select "Gem".
 
 > [!NOTE]
