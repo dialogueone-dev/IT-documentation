@@ -1,36 +1,33 @@
 > # Database structure
 
-In this section, we will explore the database structure within Ninox. Central to this structure is the Address table, which acts as a comprehensive repository for contact information provided by our clients. Consisting of both consistent and customizable fields, such as Dialogue ID, Caller, HOT status, Last Contact, Next Contact, and Meeting details, the Address table ensures essential information is organized and easily accessible.
+In this section, we will explore the database structure within Ninox. Central to this structure is the Companies table, which acts as a comprehensive repository for contact information provided by our clients. Consisting of both consistent and customizable fields, such as Dialogue ID, User, HOT status, Last Contact, Next Contact, and Meeting details, the Companies table ensures essential information is organized and easily accessible.
 
-Alongside the Address table, the Contacts and Meetings subtable capture and track every interaction, allowing for a detailed overview of each contact's history. Additionally, the Rights to be Forgotten table provides a dedicated space to manage data deletion requests in compliance with GDPR regulations. As we delve into the intricacies of the database structure, you will gain a comprehensive understanding of how to effectively leverage the power of Ninox.
+Alongside the Companies table, the Contacts made and Meetings subtable capture and track every interaction, allowing for a detailed overview of each contact's history. Additionally, the Rights to be Forgotten table provides a dedicated space to manage data deletion requests in compliance with GDPR regulations. As we delve into the intricacies of the database structure, you will gain a comprehensive understanding of how to effectively leverage the power of Ninox.
 
 ## Structure
 
 ```mermaid
 erDiagram
-    Contacts {
+    "Contacts made" {
     }
     Meetings {
     }
-    Adressen ||--o{ Contacts : contains
-    Adressen ||--o{ Meetings : contains
-    Adressen ||--|{ Callers : contains
-    Right_to_be_forgotten ||--o{ Adressen : contains
-    Qualifiers ||--o{ Adressen : contains
-    Adressen {
+    Companies ||--o{ "Contacts made" : contains
+    Companies ||--o{ Meetings : contains
+    Right_to_be_forgotten ||--o{ Companies : contains
+    Companies {
     }
-    Callers {
-    }
+
     Right_to_be_forgotten {
     }
 ```
 
-## Address Table
+## Companies Table
 
-The Address table serves as a repository of contact information provided by clients for lead generation. It contains several columns that may vary based on client preferences. However, there are consistent fields that exist across all clients:
+The Companies table serves as a repository of contact information provided by clients for lead generation. It contains several columns that may vary based on client preferences. However, there are consistent fields that exist across all clients:
 
 1. Dialogue ID: Unique identifier for each contact.
-2. Caller: Name of the consultant assigned to the contact.
+2. User: Name of the consultant assigned to the contact.
 3. HOT: Indicates the level of interest or priority assigned to the contact.
 4. Last Contact: Date and time of the most recent contact with the lead.
 5. Next Contact: Scheduled date and time for the next contact.
@@ -41,7 +38,7 @@ The Address table serves as a repository of contact information provided by clie
 > There are more fields that are fixed, but these are the examples
 
 > ![Contacts](../../images/ninox_database_docs/structure_5.png)
-> In the Address table view, you would see these fields
+> In the Companies table view, you would see these fields
 
 In addition to the consistent fields, there are contact details specific to each lead, including:
 
@@ -60,19 +57,19 @@ In addition to the consistent fields, there are contact details specific to each
 > Depending on the data structure we receive from the client, these fields may also vary
 
 > ![Contacts](../../images/ninox_database_docs/structure_6.png)
-> In the Address table view, you would see these fields
+> In the Companies table view, you would see these fields
 
-## Contacts Table
+## Contacts made Table
 
-The Contacts table is used to capture each interaction made with the leads. It is connected to the Address table through a relationship. Whenever a consultant uses the contact button in the Address table view, a new contact entry is created in the Contacts table. This enables tracking and storing of all interactions related to a specific contact.
+The Contacts made table is used to capture each interaction made with the leads. It is connected to the Companies table through a relationship. Whenever a consultant uses the contact button in the Companies table view, a new contact entry is created in the Contacts made table. This enables tracking and storing of all interactions related to a specific contact.
 
-![Contacts](../../images/ninox_database_docs/structure_4.png)
+![Contacts made](../../images/ninox_database_docs/structure_4.png)
 
 ## Meetings Subtable
 
-The Meetings subtable is a subtable within the Contacts table. It serves the purpose of recording meeting-related information. Similar to the Contacts table, the Meetings subtable is connected to the Address table via a relationship. Whenever a meeting is scheduled, a new contact entry is created, and the relevant meeting details are stored in the Meetings subtable.
+The Meetings subtable is a subtable within the Contacts made table. It serves the purpose of recording meeting-related information. Similar to the Contacts made table, the Meetings subtable is connected to the Companies table via a relationship. Whenever a meeting is scheduled, a new contact entry is created, and the relevant meeting details are stored in the Meetings subtable.
 
-![Contacts](../../images/ninox_database_docs/structure_3.png)
+![Contacts made](../../images/ninox_database_docs/structure_3.png)
 
 ## Rights to be Forgotten Table
 
@@ -80,12 +77,12 @@ The "Rights to be Forgotten" table is designed to handle requests from individua
 
 The "Rights to be Forgotten" table includes the following fields:
 
-1. Contact ID: Unique identifier linking the record to the contact in the Address table.
+1. Contact ID: Unique identifier linking the record to the contact in the Companies table.
 2. Email Sent to Contact: Indicates whether an email has been sent to the contact confirming the deletion of their personal data.
 3. Date/Time: Date and time of the deletion request or related actions.
 4. Request Type: Dropdown field specifying the method through which the deletion request was made, such as email or telephone.
 
-When a person requests their data to be deleted, a new record is created in the "Rights to be Forgotten" table, capturing the relevant contact ID. Subsequently, the personal information associated with that contact is deleted from the Address table to fulfill the GDPR requirements.
+When a person requests their data to be deleted, a new record is created in the "Rights to be Forgotten" table, capturing the relevant contact ID. Subsequently, the personal information associated with that contact is deleted from the Companies table to fulfill the GDPR requirements.
 
 By maintaining a separate table for rights to be forgotten requests, you can effectively track and document the actions taken to address these requests while ensuring compliance with data protection regulations.
 
@@ -93,15 +90,15 @@ By maintaining a separate table for rights to be forgotten requests, you can eff
 
 The "Image Library" is utilized to provide a visual cue, in the form of fire circle emoji or no emoji, to the consultants based on the "HOT" status of contacts. This feature enhances the user interface and aids in quickly identifying the priority or level of interest associated with each contact.
 
-The Image Library is connected to the main Address table to load and display the appropriate images based on a formula. The formula determines whether the "HOT" field is set to "Yes" or "No" and selects the corresponding image accordingly.
+The Image Library is connected to the main Companies table to load and display the appropriate images based on a formula. The formula determines whether the "HOT" field is set to "Yes" or "No" and selects the corresponding image accordingly.
 
 The functionality of the Image Library can be summarized as follows:
 
-1. Fire Circle Emoji: When the "HOT/" field in the Address table is set to "Yes," the formula in the Address table loads loads and displays a fire circle emoji as a visual indicator of high priority or interest.
+1. Fire Circle Emoji: When the "HOT/" field in the Companies table is set to "Yes," the formula in the Companies table loads loads and displays a fire circle emoji as a visual indicator of high priority or interest.
 
-2. No Emoji: When the "HOT/" field in the Address table is set to "No," the formula in the Address table loads and displays no emoji, indicating a neutral or non-priority status.
+2. No Emoji: When the "HOT/" field in the Companies table is set to "No," the formula in the Companies table loads and displays no emoji, indicating a neutral or non-priority status.
 
 By leveraging the Image Library feature, consultants can quickly identify and prioritize contacts based on the presence or absence of the fire circle emoji associated with the "HOT" field.
 
 > [!NOTE]
-> There are two HOT fields in the Address table, one is a dropdown "HOT/" and one is the formula field "HOT"
+> There are two HOT fields in the Companies table, one is a dropdown "HOT/" and one is the formula field "HOT"

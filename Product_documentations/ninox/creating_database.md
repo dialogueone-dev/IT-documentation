@@ -47,26 +47,20 @@ This is a step by step guide on how to use the existing template to create a new
 
 ## Setting up the database
 
-### Adding the `View`
+### Adding the `View` in the Callbacks Table
 
 1. Open the new database.
 
 ![Template database](../../images/template_database_5.png)
 
-2. Navigate to the `My Contacts` tab.
-3. Click the `+` button to add the `View`.
-
-> [!NOTE]
-> Since we unchecked the checkboxes to not include the data, we need to start by adding some things manually.
-
-### Adding images to the `ImageLibrary` table
+2. Navigate to the `Callbacks` table (formerly `My Contacts`) .
+3. Click the `+` button in the top right corner to add the view.
 
 ![Template database](../../images/template_database_6.png)
 
-4. Now click on the `Tool` icon to see all the other tables.
+### Adding images to the `ImageLibrary` table
 
-> [!NOTE]
-> Depending on the complexity of the database, some elements or tables might be different for what you need.
+4. Now click on the `Tool` icon in the top right corner to turn on edit mode.
 
 5. Navigate to the `ImageLibrary` table.
 

@@ -20,47 +20,8 @@ An email may need to be sent to our client informing them of the new Lead and bo
 The following code does the following:
 
 1. Creates a new contact record and a new meeting record, and sets various fields in the records.
-2. Generates an CSV document containing various data fields that our clients want, and stores the document to the Contact record.
-3. Generates a string containing the history of contacts made with the contact, and stores it in the `History` variable.
-4. Composes an email using the `sendEmail` function, sending the email to the client on behalf of the consultant who booked the meeting. The email includes various data fields and their corresponding values, forming the email content and all files attached to the Contact record.
-
-### Creating the CSV file
-
-![image](../../../images/ninox_code_docs/email_doc_1.png)
-
-The first part of the code defines the columns for the CSV file, the final linebreak is used to separate the header from the data.
-
-```js
-let linebreak := "
-";
-let header := "`Column 1`, `Column 2`, ... more columns ..." + linebreak;
-```
-
-The next part of the code tells Ninox to create a temporary file with the header names
-
-```js
-URL := do as server
-		createTempFile(header, "export.csv")
-	end;
-```
-
-The next part of the code defines the data for the CSV file, seeing as we only need one row for the data there's no need to create a loop.
-
-```js
-let line := "`Data 1`, `Data 2`, ... more data ..."
-```
-
-> [!Note]
-> The column headers and data values are examples, the `Data 1` in the previous example would be a Ninox field in the view that's meant to be filled out by the user. Whilst the `Column 1` would be the name of the field in the CSV file.
-
-The next part tells Ninox to append the data to the CSV file and then to import it to the contact record.
-
-```js
-do as server
-	appendTempFile(URL, line)
-end;
-importFile(this, URL, "Qualifiers.csv");
-```
+2. Generates a string containing the history of contacts made with the contact, and stores it in the `History` variable.
+3. Composes an email using the `sendEmail` function, sending the email to the client on behalf of the consultant who booked the meeting. The email includes various data fields and their corresponding values, forming the email content and all files attached to the Contact record.
 
 ### Generating the email content
 
