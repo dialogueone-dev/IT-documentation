@@ -2,7 +2,15 @@
 
 This part of the documentation is a collection of guides on how to do certain things. This can be anything from how to access data to how to use a specific tool.
 
-> [How do document](HowTo/documentation.md)
+> [How to add new user in Ninox](HowTo/add_user.md)
+
+This documentation shows you how to add a new user to Ninox.
+
+> [How to enable email sending through Ninox](Product_documentations/ninox/sending_emails.md)
+
+This documentation shows you how to enable sending emails through Ninox.
+
+> [How to document](HowTo/documentation.md)
 
 This documentation shows you how to update the documentation, create new documents and more.
 

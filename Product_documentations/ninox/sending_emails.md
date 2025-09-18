@@ -2,12 +2,20 @@
 
 This document explains how to set up an email service for Ninox on a private server using Docker Compose. Specifically, it focuses on connecting an email account through a `server-settings.json` file and configuring the email account in Office 365 Admin to send emails on behalf of other users.
 
-## Prerequisites
+## Enabling Email Sending Through Ninox
 
-- Ninox on-premise installation on a private server.
-- Docker and Docker Compose installed on the server.
-- An Office 365 email account (e.g., ninox@dialogueone.dk).
-- Office 365 admin credentials.
+To allow a user to send emails directly from Ninox, you need to grant Ninox permission to send emails on their behalf. Follow these steps:
+
+1. Go to `Mailboxes` in the Exchange Admin Center (`Recipients` > `Mailboxes`), or use this direct link:  
+   [https://admin.exchange.microsoft.com/#/mailboxes](https://admin.exchange.microsoft.com/#/mailboxes)
+2. Select the user you want to enable email sending for.
+3. Open the `Delegation` tab and click `Edit` under the `Send As` section.
+4. Click `Add members`, then find and select `ninox@dialogueone.dk` from the list.  
+   Click `Save`, and then click `Confirm` to apply the change.
+5. You will see a confirmation message once the change has been submitted.
+
+> [!NOTE]
+> The change may take several hours to take effect.
 
 ## Configuring Email in Ninox via Docker Compose
 
@@ -39,26 +47,6 @@ This document explains how to set up an email service for Ninox on a private ser
    ```sh
    docker-compose up -d
    ```
-
-## Adding Users to 'Send As' Configuration
-
-In cases where individual users need to be added to the 'Send As' configuration:
-
-1. **Navigate to Exchange Admin Center**: From the Office 365 Admin Portal, go to `Admin centers` > `Exchange`.
-
-2. **Go to Mailboxes**: Under `recipients`, click on `mailboxes`.
-
-3. **Select the Email Account**: Find and select the email account (e.g., someuser@dialogueone.dk) you wish to configure.
-
-4. **Manage Send As Permissions**: Under `delegation`, select the 'Send As' section and click `Add members`.
-
-5. **Add Users**: Select the `ninox@dialogueone.dk` user to grant 'Send As' permissions to and click `Add`.
-
-6. **Save Changes**: Click `Save` to apply the changes.
-
-## Testing
-
-Ensure that the email service is working properly by sending a test email through Ninox. Verify that the email is sent from the appropriate email address.
 
 ## Troubleshooting
 

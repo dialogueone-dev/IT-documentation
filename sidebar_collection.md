@@ -1,5 +1,7 @@
 - [Home](home.md)
   - [How To](HowTo/README.md)
+    - [How to add a new user in Ninox](HowTo/add_user.md)
+    - [How to enable email sending through Ninox](Product_documentations/ninox/sending_emails.md)
     - [How do document](HowTo/documentation.md)
     - [Access Data](HowTo/access_data.md)
     - [Upload D-time Build](HowTo/upload_build.md)
