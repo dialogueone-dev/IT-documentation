@@ -22,11 +22,9 @@ Welcome to the Project Status Application user guide. This guide will walk you t
 ### Windows
 
 1. **Download the Application:**
-
    - Download the application folder from the designated Teams Channel.
 
 2. **Place the Folder:**
-
    - Once downloaded, place the folder somewhere on your computer where you can easily access it, such as the Desktop or the Documents folder.
 
 3. **Create a Shortcut:**
@@ -38,15 +36,12 @@ Welcome to the Project Status Application user guide. This guide will walk you t
 ### macOS
 
 1. **Download the Application:**
-
    - Download the application folder from the designated Teams Channel.
 
 2. **Place the Folder:**
-
    - Once downloaded, place the folder somewhere on your Mac where you can easily access it, such as the Desktop or the Applications folder.
 
 3. **Open the Application Folder:**
-
    - Double-click the application folder to open it.
 
 4. **Create an Alias (Optional):**
@@ -59,7 +54,6 @@ Welcome to the Project Status Application user guide. This guide will walk you t
 ### Windows
 
 1. **Open the Application:**
-
    - Double-click the shortcut you created or navigate to the `.exe` file in the application folder and double-click it.
 
 2. **Windows Warning Message:**
@@ -70,7 +64,6 @@ Welcome to the Project Status Application user guide. This guide will walk you t
 ### macOS
 
 1. **Open the Application:**
-
    - Double-click the alias you created or navigate to the `.app` file in the application folder and double-click it.
 
 2. **macOS Warning Message:**
@@ -80,15 +73,13 @@ Welcome to the Project Status Application user guide. This guide will walk you t
 
 ## Using the Application
 
-### Exporting Data from Visma Time
+### Exporting Data from Intega Time
 
 1. **Open the "PS export" book mark:**
-
-   - In Visma Time, navigate to "Indberetninger" and select the tab "Indberetninger".
+   - In Intega Time, navigate to "Indberetninger" and select the tab "Indberetninger".
    - Click on the bookmarks icon at the top center, and under the "Virksomhedsbogmærker" tab, select "PS export".
 
 2. **Select start (and end) date:**
-
    - Go to "Søgeindstillinger" by clicking on the downward-pointing arrow at the top right corner.
    - Enter the start date (and end date if desired) or select, for example, "Denne måned".
    - Click on "Søg".
@@ -99,12 +90,10 @@ Welcome to the Project Status Application user guide. This guide will walk you t
 ### Transform Data
 
 1. **Load a File:**
-
    - Open the application and select the "Transform Data" tab.
    - Drag and drop your Excel or CSV file into the designated area or click to browse and select the file.
 
 2. **Select Output File:**
-
    - Click on the "Select Output File" button.
    - Choose the location and name for your output file. Ensure to select the appropriate format (CSV or Excel) in the save dialog.
 
@@ -116,11 +105,9 @@ Welcome to the Project Status Application user guide. This guide will walk you t
 ### Project Mapping
 
 1. **Open the Project Mapping Tab:**
-
    - Navigate to the "Project Mapping" tab.
 
 2. **Add Project Mapping:**
-
    - Click on the "Add Row" button to add a new mapping.
    - In the "Client" column, enter the client name as it appears in the input file.
    - In the "Mapped Project" column, enter the corresponding project name as it should appear in the output file.
@@ -131,12 +118,10 @@ Welcome to the Project Status Application user guide. This guide will walk you t
 ## Troubleshooting
 
 - **File Loading Issues:**
-
   - Ensure the file is in the correct format (CSV or Excel).
   - Check if the file contains the required columns: `Medarbejder`, `Startdato`, `Arbejdskategori`, `Antal`, `Hovedprojekt`, `Projekt`, `Kundenavn`, `Enhed`, `Aktivitet`, `Bemærkninger`.
 
 - **Transformation Errors:**
-
   - If you encounter an error during transformation, ensure that the data structure is correct and all required fields are present.
   - Check the Project Mapping to ensure all client names are correctly mapped.
 

@@ -1,4 +1,4 @@
-# How to Manage Activities on Projects in Visma Time
+# How to Manage Activities on Projects in Intega Time
 
 Activities must be added to **both the project and sub-projects**.
 

@@ -8,7 +8,7 @@ The documentation contains about **200** standard pages and is divided into thre
 - [How To](HowTo/README.md)
   - [How to add a new user in Ninox](HowTo/add_user.md)
   - [How to enable email sending through Ninox](Product_documentations/ninox/sending_emails.md)
-  - [How do document](HowTo/documentation.md)
+  - [How to document](HowTo/documentation.md)
   - [Access Data](HowTo/access_data.md)
   - [Upload D-time Build](HowTo/upload_build.md)
   - [How to use the server](Product_documentations/dialogue_time/Getting_started/README?id=ssh)
@@ -26,9 +26,9 @@ A handbook, where aspects of project management are explained, including framewo
 
 Aimed to provide a comprehensive documentation of all the IT products.
 
-> Visma Time
+> Intega Time
 
-- [Visma Time](Product_documentations/visma_time/README.md)
+- [Intega Time](Product_documentations/visma_time/README.md)
   - [Employees](Product_documentations/visma_time/Employees/README.md)
   - [Projects](Product_documentations/visma_time/Projects/README.md)
   - [Operations and Support Guide](Product_documentations/visma_time/Maintenance/README.md)

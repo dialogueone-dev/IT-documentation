@@ -1,6 +1,6 @@
 # Handling New Employees
 
-There are three ways to add employees in Visma Time: creating a new employee with a CPR number, creating a new employee without a CPR number, or rehiring a former employee.  
+There are three ways to add employees in Intega Time: creating a new employee with a CPR number, creating a new employee without a CPR number, or rehiring a former employee.  
 Once the employee is created, they need to be added to the correct department.
 
 > [!NOTE]
@@ -8,7 +8,7 @@ Once the employee is created, they need to be added to the correct department.
 
 ### The New Employee has a CPR Number
 
-If the new employee has a CPR number, they should first be created in Visma Løn and will then appear under "Nye lønmodtagere" in "Medarbejdere" in Visma Time. The employee should then be created in Visma Time as follows:
+If the new employee has a CPR number, they should first be created in Visma Løn and will then appear under "Nye lønmodtagere" in "Medarbejdere" in Intega Time. The employee should then be created in Intega Time as follows:
 
 1. Navigate to "Nye medarbejdere" under "Medarbejdere".
 2. Select the new employee and choose "Opret" in the black bar at the bottom of the page or right-click on the employee and select "Opret".
@@ -19,7 +19,7 @@ If the new employee has a CPR number, they should first be created in Visma Løn
 
 ### The New Employee does not have a CPR Number
 
-If the new employee does not have a CPR number, they must be manually created in Visma Time. This is done by selecting "Medarbejdere" in the menu and then clicking the blue plus sign in the bottom right corner and filling out the employees' information.
+If the new employee does not have a CPR number, they must be manually created in Intega Time. This is done by selecting "Medarbejdere" in the menu and then clicking the blue plus sign in the bottom right corner and filling out the employees' information.
 
 Once they have received a CPR number and are created in Visma Løn, the following steps should be taken:
 

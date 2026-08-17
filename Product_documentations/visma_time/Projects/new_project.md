@@ -1,4 +1,4 @@
-# How to Create a New Project in Visma Time
+# How to Create a New Project in Intega Time
 
 To create a new project, follow these steps (please note that only the mentioned fields need to be filled out):
 

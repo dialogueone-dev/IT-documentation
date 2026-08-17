@@ -1,4 +1,4 @@
-# How to Create a New Sub-Project in Visma Time
+# How to Create a New Sub-Project in Intega Time
 
 To create sub-projects (tasks/processes), follow these steps:
 
@@ -16,16 +16,10 @@ Below is a list of sub-projects that an **external** project should include:
 
 - Calling
 - Project lead
-- Internal client meeting
 - Training/coaching received
 - Support training/QC
 - Technical problem
 - Project administration support
-- Project development
-- Database development
-- Database maintenance
+- IT matters
 
-> It is recommended to copy and paste the above sub-projects to Visma Time to ensure consistency in spelling and capitalization.
-
-> [!NOTE]
-> Since sub-projects refer to tasks/processes, the naming of sub-projects should, as much as possible, follow this convention. This means that the sub-project's name should be an activity that can be performed, such as "Calling" or "Project Development."
+> It is recommended to copy and paste the above sub-projects to Intega Time to ensure consistency in spelling and capitalization.

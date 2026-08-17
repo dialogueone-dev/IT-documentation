@@ -1,7 +1,7 @@
 - [Home](README.md)
 - [Project Management](Project_management/README.md)
 - [Product Documentations](Product_documentations/README.md)
-  - [Visma Time](Product_documentations/visma_time/README.md)
+  - [Intega Time](Product_documentations/visma_time/README.md)
     - [Employees](Product_documentations/visma_time/Employees/README.md)
       - [Handling New Employees](Product_documentations/visma_time/Employees/new_employees.md)
       - [Standard Time](Product_documentations/visma_time/Employees/standard_time.md)

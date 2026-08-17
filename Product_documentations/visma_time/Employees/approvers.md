@@ -1,6 +1,6 @@
-# Managing Approvers in Visma Time
+# Managing Approvers in Intega Time
 
-Hours in Visma Time must be approved before they are sent to Visma Løn.
+Hours in Intega Time must be approved before they are sent to Visma Løn.
 
 > There are four levels of approvers: First, second, third, and final approver.
 

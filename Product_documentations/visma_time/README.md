@@ -1,15 +1,13 @@
-> # Visma Time
+> # Intega Time
 
-In our company, Visma Time is utilized for precise tracking of employee hours and accurately tracking time spent on different projects. This documentation will focus on the following key areas:
+In our company, Intega Time is utilized for precise tracking of employee hours and accurately tracking time spent on different projects. This documentation will focus on the following key areas:
 
 - [Employees](Product_documentations/visma_time/Employees/README.md)
-
   - [Handling New Employees](Product_documentations/visma_time/Employees/new_employees.md)
   - [Establishing Standard Time (_Normtid_ for Salaried Employees)](Product_documentations/visma_time/Employees/standard_time.md)
   - [Managing Approvers](Product_documentations/visma_time/Employees/approvers.md)
 
 - [Projects](Product_documentations/visma_time/Projects/README.md)
-
   - [Creating Projects](Product_documentations/visma_time/Projects/new_project.md)
   - [Creating Sub-Projects](Product_documentations/visma_time/Projects/new_sub_project.md)
   - [Managing Employee Access](Product_documentations/visma_time/Projects/employee_access.md)

@@ -1,6 +1,6 @@
-# Support and Troubleshooting in Visma Time
+# Support and Troubleshooting in Intega Time
 
-On this page, you will find information about the general approach to problems and questions related to Visma Time, as well as answers to some common, specific issues.
+On this page, you will find information about the general approach to problems and questions related to Intega Time, as well as answers to some common, specific issues.
 
 ## General Approach to Issues and Questions
 
@@ -35,9 +35,9 @@ Make sure the [project is active](Product_documentations/visma_time/Projects/clo
 
 If none of the above work, refer to [Visma's own guidelines](https://community.visma.com/t5/Vejledninger-i-Visma-Time/tkb-p/DK_EN_Visma-Time_Vejledninger) or contact [Visma's support](https://vismaenterpriseas.my.site.com) for additional help and assistance.
 
-### Employee Cannot Log In to Visma Time
+### Employee Cannot Log In to Intega Time
 
-There can be several reasons why an employee cannot log in to Visma Time using SSO. The following steps can be taken to try and resolve the issue:
+There can be several reasons why an employee cannot log in to Intega Time using SSO. The following steps can be taken to try and resolve the issue:
 
 1. Check if the [employee is correctly created](Product_documentations/visma_time/Employees/new_employees.md).
 2. Check if the employee's email is spelled correctly (right-click on the employee and select "Rediger" to correct this).
@@ -49,6 +49,6 @@ If none of the above resolves the issue, contact [Visma's support](https://visma
 
 ### Error in Integration with Visma Løn or e-conomic
 
-If there is an error in the integration with either Visma Løn or e-conomic, it will be displayed on the dashboard in Visma Time, as shown in the image below. To correct the error, open a ticket in the [customer portal](https://vismaenterpriseas.my.site.com) with information about where the error is. In the example below, the error is in the **synchronization** within the integration with **e-conomic**. Visma will then address the issue.
+If there is an error in the integration with either Visma Løn or e-conomic, it will be displayed on the dashboard in Intega Time, as shown in the image below. To correct the error, open a ticket in the [customer portal](https://vismaenterpriseas.my.site.com) with information about where the error is. In the example below, the error is in the **synchronization** within the integration with **e-conomic**. Visma will then address the issue.
 
 ![Dashboard error](../../../images/visma_time/visma_time_dashboard_error.png)
