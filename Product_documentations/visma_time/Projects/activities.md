@@ -16,14 +16,11 @@ Below is an overview of the activities that the sub-projects on external project
 | ------------------------------ | ------------------------------ | ------------------------------ |
 | Calling                        | Arbejdstid, Contacts, Meetings | Arbejdstid, Contacts, Meetings |
 | Project lead                   | Arbejdstid                     | Arbejdstid A                   |
-| Internal client meeting        | Arbejdstid                     | Arbejdstid                     |
 | Training/coaching received     | Arbejdstid                     | Arbejdstid                     |
 | Support training/QC            | Arbejdstid                     | Arbejdstid B                   |
 | Technical problem              | Arbejdstid                     | Arbejdstid                     |
 | Project administration support | Arbejdstid                     | Arbejdstid                     |
-| Project development            | Arbejdstid                     | Arbejdstid                     |
-| Database development           | Arbejdstid                     | Arbejdstid                     |
-| Database maintenance           | Arbejdstid                     | Arbejdstid                     |
+| IT matters                     | Arbejdstid                     | Arbejdstid                     |
 
 > [!NOTE]
 > Please note that activities must also be added for the project (even though no hours are logged on it), otherwise it will not be available.
